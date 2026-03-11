@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -18,7 +19,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 <style>
 
 body{
-font-family:Outfit;
+font-family:'Outfit',sans-serif;
 background:#050507;
 color:white;
 margin:0;
@@ -35,10 +36,6 @@ max-width:1100px;
 margin:auto;
 }
 
-h1,h2{
-margin-bottom:20px;
-}
-
 .hero{
 height:100vh;
 display:flex;
@@ -49,12 +46,16 @@ align-items:center;
 
 .hero h1{
 font-size:70px;
+margin-bottom:10px;
 }
 
 .typing{
 color:#00d2ff;
 font-size:24px;
+margin-bottom:30px;
 }
+
+/* 3D Tech */
 
 .tech-sphere{
 width:300px;
@@ -77,6 +78,14 @@ from{transform:rotateY(0deg);}
 to{transform:rotateY(360deg);}
 }
 
+/* Projects */
+
+.projects{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
 .project-card{
 width:280px;
 height:180px;
@@ -93,16 +102,14 @@ transition:0.4s;
 transform:rotateY(15deg) rotateX(10deg) scale(1.05);
 }
 
-.projects{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-}
+/* Github section */
 
 .github img{
 max-width:100%;
 margin:10px;
 }
+
+/* AI chatbot */
 
 #chatbot{
 position:fixed;
@@ -117,6 +124,7 @@ overflow:hidden;
 #chat-header{
 background:#8c52ff;
 padding:10px;
+text-align:center;
 }
 
 #chat-body{
@@ -140,6 +148,8 @@ color:white;
 
 <body>
 
+<!-- HERO -->
+
 <section class="hero">
 
 <h1>Rani Patel</h1>
@@ -151,6 +161,8 @@ color:white;
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8c52ff,100:00d2ff&height=150&section=header&text=Creative%20Developer"/>
 
 </section>
+
+<!-- TECH STACK -->
 
 <section>
 
@@ -170,6 +182,8 @@ color:white;
 
 </section>
 
+<!-- PROJECTS -->
+
 <section>
 
 <h2>Projects</h2>
@@ -184,6 +198,8 @@ color:white;
 </div>
 
 </section>
+
+<!-- GITHUB -->
 
 <section class="github">
 
@@ -201,6 +217,8 @@ color:white;
 
 </section>
 
+<!-- CONTACT -->
+
 <section>
 
 <h2>Contact</h2>
@@ -210,6 +228,8 @@ color:white;
 <p>Phone: 9898225910</p>
 
 </section>
+
+<!-- AI CHATBOT -->
 
 <div id="chatbot">
 
@@ -255,6 +275,8 @@ setTimeout(type,deleting?40:80);
 
 type();
 
+/* chatbot */
+
 const chatInput=document.getElementById("chat-input");
 const chatBody=document.getElementById("chat-body");
 
@@ -282,18 +304,6 @@ chatInput.value="";
 
 }
 
-});
-
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.to(".hero",{
-backgroundPosition:"50% 100%",
-scrollTrigger:{
-trigger:".hero",
-start:"top top",
-end:"bottom top",
-scrub:true
-}
 });
 
 </script>
