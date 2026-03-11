@@ -27,8 +27,19 @@ padding:100px 0;
 text-align:center;
 }
 
+/* COOL BANNER */
+
+.banner{
+background:linear-gradient(90deg,#8c52ff,#00d2ff);
+padding:40px;
+font-size:32px;
+font-weight:700;
+}
+
+/* HERO */
+
 .hero{
-height:100vh;
+height:80vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -41,9 +52,11 @@ font-size:70px;
 
 .typing{
 color:#00d2ff;
-font-size:24px;
+font-size:26px;
 margin-bottom:20px;
 }
+
+/* TECH STACK */
 
 .tech-sphere{
 width:300px;
@@ -66,6 +79,8 @@ from{transform:rotateY(0deg);}
 to{transform:rotateY(360deg);}
 }
 
+/* PROJECTS */
+
 .projects{
 display:flex;
 flex-wrap:wrap;
@@ -82,16 +97,34 @@ display:flex;
 align-items:center;
 justify-content:center;
 transition:0.4s;
+font-size:18px;
 }
 
 .project-card:hover{
 transform:rotateY(15deg) rotateX(10deg) scale(1.05);
 }
 
+/* PORTFOLIO PREVIEW */
+
+.preview img{
+width:70%;
+border-radius:12px;
+}
+
+/* GITHUB */
+
 .github img{
-max-width:100%;
+max-width:90%;
 margin:10px;
 }
+
+/* VISITOR COUNTER */
+
+.counter{
+margin-top:20px;
+}
+
+/* CHATBOT */
 
 #chatbot{
 position:fixed;
@@ -130,6 +163,14 @@ color:white;
 
 <body>
 
+<!-- COOL BANNER -->
+
+<div class="banner">
+🚀 Welcome to My Developer Portfolio
+</div>
+
+<!-- HERO -->
+
 <section class="hero">
 
 <h1>Rani Patel</h1>
@@ -138,9 +179,9 @@ color:white;
 <span id="typing"></span>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8c52ff,100:00d2ff&height=150&section=header&text=Creative%20Developer">
-
 </section>
+
+<!-- TECH STACK -->
 
 <section>
 
@@ -160,6 +201,8 @@ color:white;
 
 </section>
 
+<!-- PROJECTS -->
+
 <section>
 
 <h2>Projects</h2>
@@ -174,6 +217,18 @@ color:white;
 </div>
 
 </section>
+
+<!-- PORTFOLIO PREVIEW -->
+
+<section class="preview">
+
+<h2>Portfolio Preview</h2>
+
+<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview">
+
+</section>
+
+<!-- GITHUB STATS -->
 
 <section class="github">
 
@@ -191,6 +246,18 @@ color:white;
 
 </section>
 
+<!-- VISITOR COUNTER -->
+
+<section class="counter">
+
+<h2>Visitor Counter</h2>
+
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat">
+
+</section>
+
+<!-- CONTACT -->
+
 <section>
 
 <h2>Contact</h2>
@@ -200,6 +267,8 @@ color:white;
 <p>Phone: 9898225910</p>
 
 </section>
+
+<!-- AI CHATBOT -->
 
 <div id="chatbot">
 
@@ -212,6 +281,8 @@ color:white;
 </div>
 
 <script>
+
+/* TYPING HEADER */
 
 const words=["Frontend Developer","UI Designer","React Developer","Creative Coder"];
 
