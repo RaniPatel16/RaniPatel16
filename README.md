@@ -10,10 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
     <style>
         * {
             margin: 0;
@@ -34,12 +30,6 @@
             text-align: center;
         }
 
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-        }
-
         /* Hero Section */
         .hero {
             height: 100vh;
@@ -48,7 +38,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            overflow: hidden;
+            background: radial-gradient(circle at center, #1a1a2e 0%, #050507 100%);
         }
 
         .hero h1 {
@@ -87,7 +77,6 @@
             font-size: 40px;
             left: 50%;
             top: 50%;
-            transform-style: preserve-3d;
             color: #00d2ff;
             text-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
             transition: all 0.3s ease;
@@ -95,7 +84,7 @@
 
         .tech-item:hover {
             color: #8c52ff;
-            transform: scale(1.2) translateZ(50px);
+            transform: scale(1.2) translateZ(50px) !important;
             text-shadow: 0 0 20px rgba(140, 82, 255, 0.8);
         }
 
@@ -127,15 +116,16 @@
             height: 180px;
             background: linear-gradient(145deg, #1a1a1a, #111);
             border-radius: 15px;
-            margin: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.4s ease;
             cursor: pointer;
             border: 1px solid rgba(140, 82, 255, 0.2);
             position: relative;
             overflow: hidden;
+            font-weight: 600;
+            font-size: 18px;
         }
 
         .project-card::before {
@@ -154,7 +144,7 @@
         }
 
         .project-card:hover {
-            transform: rotateY(10deg) rotateX(5deg) scale(1.05);
+            transform: translateY(-10px) scale(1.05);
             box-shadow: 0 20px 30px rgba(140, 82, 255, 0.3);
             border-color: #8c52ff;
         }
@@ -164,7 +154,7 @@
             background: linear-gradient(180deg, #050507 0%, #0a0a0f 100%);
         }
 
-        .github-stats {
+        .stats-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -172,25 +162,32 @@
             margin: 30px 0;
         }
 
-        .github img {
-            max-width: 100%;
-            margin: 10px;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-            border: 2px solid rgba(140, 82, 255, 0.3);
+        .stat-box {
+            background: rgba(255,255,255,0.03);
+            border-radius: 15px;
+            padding: 30px;
+            min-width: 200px;
+            border: 1px solid rgba(140, 82, 255, 0.2);
+            transition: all 0.3s ease;
         }
 
-        .github img:hover {
-            transform: scale(1.02);
+        .stat-box:hover {
+            transform: translateY(-5px);
             border-color: #8c52ff;
+            background: rgba(140, 82, 255, 0.1);
         }
 
-        .snake-container {
-            margin: 40px auto;
-            max-width: 800px;
-            background: rgba(255,255,255,0.02);
-            border-radius: 20px;
-            padding: 20px;
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #8c52ff, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            color: #888;
+            margin-top: 10px;
         }
 
         /* Contact Section */
@@ -213,6 +210,7 @@
             min-width: 200px;
             transition: all 0.3s ease;
             border: 1px solid rgba(140, 82, 255, 0.2);
+            cursor: pointer;
         }
 
         .contact-item:hover {
@@ -243,12 +241,6 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.5);
             border: 1px solid rgba(140, 82, 255, 0.3);
             z-index: 1000;
-            transition: transform 0.3s ease;
-        }
-
-        #chatbot:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 50px rgba(140, 82, 255, 0.3);
         }
 
         #chat-header {
@@ -270,16 +262,9 @@
 
         #chat-body p {
             margin: 8px 0;
-            padding: 5px 10px;
+            padding: 8px 12px;
             border-radius: 10px;
-        }
-
-        #chat-body p:first-child {
-            background: rgba(140, 82, 255, 0.1);
-        }
-
-        #chat-body p:last-child {
-            background: rgba(0, 210, 255, 0.1);
+            background: rgba(255,255,255,0.05);
         }
 
         #chat-input {
@@ -295,10 +280,6 @@
         #chat-input:focus {
             outline: none;
             background: #2a2a2a;
-        }
-
-        #chat-input::placeholder {
-            color: #666;
         }
 
         /* Section Headers */
@@ -348,15 +329,6 @@
                 bottom: 10px;
                 right: 10px;
             }
-            
-            .contact-info {
-                gap: 20px;
-            }
-            
-            .contact-item {
-                min-width: 150px;
-                padding: 15px;
-            }
         }
 
         /* Scrollbar */
@@ -372,10 +344,6 @@
             background: linear-gradient(135deg, #8c52ff, #00d2ff);
             border-radius: 4px;
         }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(135deg, #00d2ff, #8c52ff);
-        }
     </style>
 </head>
 
@@ -386,9 +354,9 @@
         <div class="typing">
             <span id="typing"></span>
         </div>
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8c52ff,100:00d2ff&height=200&section=header&text=Creative%20Developer&fontSize=40&fontColor=white&animation=twinkling" 
-             alt="Creative Developer Banner"
-             style="max-width: 100%;">
+        <div style="margin-top: 50px; font-size: 20px; color: #666;">
+            <i class="fas fa-arrow-down" style="color: #8c52ff;"></i> Scroll to explore <i class="fas fa-arrow-down" style="color: #00d2ff;"></i>
+        </div>
     </section>
 
     <!-- TECH STACK SECTION -->
@@ -409,36 +377,29 @@
     <section>
         <h2>Projects</h2>
         <div class="projects">
-            <div class="project-card">BigBasket Clone</div>
-            <div class="project-card">Porter Clone</div>
-            <div class="project-card">BBC News Clone</div>
-            <div class="project-card">AI Chatbot</div>
+            <div class="project-card">🛒 BigBasket Clone</div>
+            <div class="project-card">🚚 Porter Clone</div>
+            <div class="project-card">📰 BBC News Clone</div>
+            <div class="project-card">🤖 AI Chatbot</div>
         </div>
     </section>
 
     <!-- GITHUB STATS SECTION -->
     <section class="github">
         <h2>GitHub Stats</h2>
-        <div class="github-stats">
-            <img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" 
-                 alt="GitHub Stats">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight&hide_border=true&background=0D1117" 
-                 alt="GitHub Streak">
-        </div>
-        <div>
-            <img src="https://github-profile-trophy.vercel.app/?username=RaniPatel16&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" 
-                 alt="GitHub Trophies"
-                 style="max-width: 100%;">
-        </div>
-        <div>
-            <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night&hide_border=true&bg_color=0D1117&area=true" 
-                 alt="GitHub Activity Graph"
-                 style="max-width: 100%;">
-        </div>
-        <div class="snake-container">
-            <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" 
-                 alt="GitHub Snake Game"
-                 style="max-width: 100%; filter: invert(0.9);">
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Repositories</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Contributions</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Projects</div>
+            </div>
         </div>
     </section>
 
@@ -446,15 +407,15 @@
     <section>
         <h2>Contact</h2>
         <div class="contact-info">
-            <div class="contact-item">
+            <div class="contact-item" onclick="window.open('https://linkedin.com', '_blank')">
                 <i class="fab fa-linkedin"></i>
                 <p>linkedin.com/in/ranipatel</p>
             </div>
-            <div class="contact-item">
+            <div class="contact-item" onclick="window.open('https://github.com', '_blank')">
                 <i class="fab fa-github"></i>
                 <p>github.com/RaniPatel16</p>
             </div>
-            <div class="contact-item">
+            <div class="contact-item" onclick="window.location.href='tel:9898225910'">
                 <i class="fas fa-phone"></i>
                 <p>9898225910</p>
             </div>
@@ -467,7 +428,9 @@
             <i class="fas fa-robot" style="margin-right: 8px;"></i>
             AI Assistant
         </div>
-        <div id="chat-body"></div>
+        <div id="chat-body">
+            <p><b>AI:</b> 👋 Hi! Ask me about Rani's skills or projects!</p>
+        </div>
         <input id="chat-input" type="text" placeholder="Ask about Rani...">
     </div>
 
@@ -512,11 +475,6 @@
         const chatBody = document.getElementById("chat-body");
 
         if (chatInput && chatBody) {
-            // Add welcome message
-            setTimeout(() => {
-                chatBody.innerHTML += "<p><b>AI:</b> 👋 Hi! Ask me about Rani's skills or projects!</p>";
-            }, 500);
-
             chatInput.addEventListener("keypress", function(e) {
                 if (e.key === "Enter" && this.value.trim() !== "") {
                     let text = this.value.trim();
@@ -534,7 +492,7 @@
                     } else if (text.toLowerCase().includes("contact")) {
                         reply = "You can connect with Rani via LinkedIn, GitHub, or call at 9898225910.";
                     } else if (text.toLowerCase().includes("experience")) {
-                        reply = "Rani has experience in frontend development, UI design, and creative coding with modern frameworks.";
+                        reply = "Rani has 3+ years of experience in frontend development and UI design.";
                     } else if (text.includes("hi") || text.includes("hello")) {
                         reply = "Hello! 👋 How can I help you learn about Rani's portfolio?";
                     }
@@ -551,60 +509,27 @@
             });
         }
 
-        // GSAP Animations
-        gsap.registerPlugin(ScrollTrigger);
-
-        // Animate sections on scroll
-        gsap.utils.toArray('section').forEach(section => {
-            gsap.from(section, {
-                scrollTrigger: {
-                    trigger: section,
-                    start: "top 80%",
-                    end: "bottom 20%",
-                    toggleActions: "play none none reverse"
-                },
-                opacity: 0,
-                y: 50,
-                duration: 1,
-                ease: "power2.out"
+        // Simple scroll animation
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }
             });
         });
 
-        // Animate project cards
-        gsap.from('.project-card', {
-            scrollTrigger: {
-                trigger: '.projects',
-                start: "top 80%",
-            },
-            scale: 0.8,
-            opacity: 0,
-            duration: 0.8,
-            stagger: 0.2,
-            ease: "back.out(1.2)"
+        // Initialize sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(50px)';
+            section.style.transition = 'all 0.6s ease';
         });
 
-        // Animate GitHub stats
-        gsap.from('.github img', {
-            scrollTrigger: {
-                trigger: '.github',
-                start: "top 80%",
-            },
-            scale: 0.9,
-            opacity: 0,
-            duration: 0.8,
-            stagger: 0.1,
-            ease: "power2.out"
-        });
-
-        // Update tech sphere positions on resize
-        window.addEventListener('resize', function() {
-            const sphere = document.querySelector('.tech-sphere');
-            if (sphere) {
-                sphere.style.animation = 'none';
-                sphere.offsetHeight; // Trigger reflow
-                sphere.style.animation = 'rotateSphere 20s linear infinite';
-            }
-        });
+        // Trigger initial scroll event
+        window.dispatchEvent(new Event('scroll'));
     </script>
 </body>
 
