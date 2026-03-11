@@ -13,9 +13,6 @@
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
 <style>
 
 body{
@@ -198,8 +195,8 @@ color:white;
 
 <h2>Contact</h2>
 
-<p>LinkedIn</p>
-<p>GitHub</p>
+<p><a href="https://www.linkedin.com" style="color:#00d2ff;">LinkedIn</a></p>
+<p><a href="https://github.com/RaniPatel16" style="color:#00d2ff;">GitHub</a></p>
 <p>Phone: 9898225910</p>
 
 </section>
