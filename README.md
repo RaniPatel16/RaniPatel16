@@ -30,7 +30,7 @@ View the interactive portfolio website:
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
 
 </p>
 
@@ -67,14 +67,38 @@ View the interactive portfolio website:
 
 ## Contact
 
-GitHub: https://github.com/RaniPatel16  
+<p align="center">
 
-LinkedIn: https://linkedin.com  
+<a href="https://github.com/RaniPatel16">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://linkedin.com">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://youtube.com">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
+</a>
+
+<a href="https://leetcode.com">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode">
+</a>
+
+<a href="https://sololearn.com">
+<img src="https://img.shields.io/badge/SoloLearn-149EF2?style=for-the-badge&logo=sololearn">
+</a>
+
+<a href="https://twitter.com">
+<img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=twitter">
+</a>
+
+</p>
 
 ---
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat"/>
 
 </p>
