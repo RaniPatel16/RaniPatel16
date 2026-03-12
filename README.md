@@ -1,48 +1,42 @@
-<!-- CYBERPUNK HEADER -->
+<!-- HEADER -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
-<h1 align="center">Hi 👋 I'm Rani Patel</h1>
+<h1 align="center">Rani Patel</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Creative+Coder&center=true&width=500&height=45">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast&center=true&width=500&height=40">
 </p>
 
 ---
 
-# 🚀 Advanced Developer Portfolio
+## About
 
-This repository contains my **interactive developer portfolio** featuring modern web technologies and animations.
-
-### 🌐 Open Portfolio
-➡️ **[View Portfolio Website](./index1.html)**
+Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
+Currently working with the MERN stack and building interactive web applications.
 
 ---
 
-# ✨ Portfolio Features
+## Portfolio
 
-- 🌐 **3D Rotating Tech Sphere**
-- 🤖 **AI Chatbot Assistant**
-- 🎥 **Parallax Scrolling Effects**
-- ✨ **GSAP Animations**
-- 🧊 **Glassmorphism UI**
-- 📊 **GitHub Stats Integration**
-- 🧩 **Interactive Project Cards**
+View the interactive portfolio website:
+
+[Open Portfolio](./index1.html)
 
 ---
 
-# 🧠 Tech Stack
+## Technology Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode" />
 
 </p>
 
 ---
 
-# 📊 GitHub Dashboard
+## GitHub Statistics
 
 <p align="center">
 
@@ -60,35 +54,27 @@ This repository contains my **interactive developer portfolio** featuring modern
 
 ---
 
-# 🧩 Featured Projects
+## Projects
 
-| Project | Preview |
-|-------|-------|
-| BigBasket Clone | ![](https://via.placeholder.com/200x120) |
-| Porter Clone | ![](https://via.placeholder.com/200x120) |
-| BBC News Clone | ![](https://via.placeholder.com/200x120) |
-| AI Chatbot | ![](https://via.placeholder.com/200x120) |
+| Project | Description |
+|-------|-------------|
+| BigBasket Clone | E-commerce interface inspired by BigBasket |
+| Porter Clone | Logistics platform UI recreation |
+| BBC News Clone | News website layout and functionality |
+| AI Chatbot | Web chatbot demonstrating conversational UI |
 
 ---
 
-# 👀 Visitor Counter
+## Contact
+
+GitHub: https://github.com/RaniPatel16  
+
+LinkedIn: https://linkedin.com  
+
+---
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat" />
 
 </p>
-
----
-
-# 📬 Contact
-
-🔗 GitHub: https://github.com/RaniPatel16  
-
-🔗 LinkedIn: https://linkedin.com  
-
-📱 Phone: 9898225910
-
----
-
-⭐ From [RaniPatel16](https://github.com/RaniPatel16)
