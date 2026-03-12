@@ -5,136 +5,118 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Rani Patel | AI Portfolio</title>
+<title>Rani Patel | Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 
 <style>
 
 body{
-font-family:'Outfit',sans-serif;
 margin:0;
+font-family:'Outfit',sans-serif;
 background:#050507;
 color:white;
 overflow-x:hidden;
 }
 
-header{
+/* PARTICLE BACKGROUND */
+
+#particles{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+/* HERO SECTION */
+
+.hero{
 height:100vh;
 display:flex;
-justify-content:center;
 align-items:center;
+justify-content:center;
 flex-direction:column;
-background:linear-gradient(120deg,#8c52ff,#00d2ff);
+text-align:center;
 }
 
-h1{
-font-size:60px;
-}
+/* GLASS BOX */
 
-.glass{
-background:rgba(255,255,255,0.08);
+.hero-box{
+background:rgba(255,255,255,0.05);
 backdrop-filter:blur(10px);
-padding:20px;
+padding:60px 80px;
 border-radius:15px;
 }
 
-section{
-padding:100px 20px;
-text-align:center;
+/* GRADIENT TEXT */
+
+.name{
+font-size:70px;
+font-weight:700;
+background:linear-gradient(90deg,#8c52ff,#00d2ff,#ff4ecd);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+animation:gradientMove 5s infinite linear;
 }
 
-.parallax{
-background-image:url("https://images.unsplash.com/photo-1518770660439-4636190af475");
-background-attachment:fixed;
-background-size:cover;
-background-position:center;
-height:400px;
+@keyframes gradientMove{
+0%{background-position:0%}
+100%{background-position:200%}
 }
 
-.tech-sphere{
-width:300px;
-height:300px;
-margin:auto;
-position:relative;
-transform-style:preserve-3d;
-animation:rotateSphere 20s linear infinite;
+/* TYPING TEXT */
+
+.typing{
+font-size:28px;
+color:#00d2ff;
+margin-top:15px;
 }
 
-.tech-item{
+/* 3D ICONS */
+
+.tech-icons{
+margin-top:40px;
+display:flex;
+gap:25px;
+justify-content:center;
+}
+
+.tech-icons img{
+width:45px;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+}
+
+/* SCROLL INDICATOR */
+
+.scroll{
 position:absolute;
-font-size:40px;
-left:50%;
-top:50%;
-}
-
-.tech-item:nth-child(1){ transform: translate(-120px,-120px); }
-.tech-item:nth-child(2){ transform: translate(120px,-120px); }
-.tech-item:nth-child(3){ transform: translate(-120px,120px); }
-.tech-item:nth-child(4){ transform: translate(120px,120px); }
-.tech-item:nth-child(5){ transform: translate(0,-150px); }
-.tech-item:nth-child(6){ transform: translate(-150px,0); }
-.tech-item:nth-child(7){ transform: translate(150px,0); }
-
-@keyframes rotateSphere{
-from{transform:rotateY(0deg);}
-to{transform:rotateY(360deg);}
-}
-
-.projects{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-}
-
-.card{
-width:260px;
-height:160px;
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(8px);
-border-radius:12px;
-margin:20px;
-display:flex;
-align-items:center;
-justify-content:center;
-transition:0.3s;
-}
-
-.card:hover{
-transform:scale(1.1);
-}
-
-#chatbot{
-position:fixed;
-bottom:20px;
-right:20px;
-width:260px;
-background:#111;
-border-radius:10px;
-overflow:hidden;
-}
-
-#chat-header{
-background:#8c52ff;
-padding:10px;
-text-align:center;
-}
-
-#chat-body{
-height:180px;
-overflow:auto;
-padding:10px;
+bottom:40px;
 font-size:14px;
+opacity:0.7;
 }
 
-#chat-input{
-width:100%;
-padding:10px;
-border:none;
-background:#000;
-color:white;
+.scroll span{
+display:block;
+width:25px;
+height:25px;
+border-bottom:2px solid white;
+border-right:2px solid white;
+transform:rotate(45deg);
+margin:auto;
+animation:scroll 2s infinite;
+}
+
+@keyframes scroll{
+0%{opacity:0}
+50%{opacity:1}
+100%{opacity:0}
 }
 
 </style>
@@ -143,99 +125,86 @@ color:white;
 
 <body>
 
-<header>
+<div id="particles"></div>
 
-<div class="glass">
+<section class="hero">
 
-<h1>Rani Patel</h1>
+<div class="hero-box">
 
-<p>Frontend Developer | AI Enthusiast</p>
+<h1 class="name">Rani Patel</h1>
+
+<div class="typing">
+<span id="typing"></span>
+</div>
+
+<div class="tech-icons">
+
+<img src="https://skillicons.dev/icons?i=html">
+<img src="https://skillicons.dev/icons?i=css">
+<img src="https://skillicons.dev/icons?i=js">
+<img src="https://skillicons.dev/icons?i=react">
+<img src="https://skillicons.dev/icons?i=nodejs">
+<img src="https://skillicons.dev/icons?i=mongodb">
 
 </div>
 
-</header>
-
-<section>
-
-<h2>3D Tech Sphere</h2>
-
-<div class="tech-sphere">
-
-<div class="tech-item">HTML</div>
-<div class="tech-item">CSS</div>
-<div class="tech-item">JS</div>
-<div class="tech-item">React</div>
-<div class="tech-item">Node</div>
-<div class="tech-item">Mongo</div>
-<div class="tech-item">Git</div>
-
 </div>
 
-</section>
-
-<div class="parallax"></div>
-
-<section>
-
-<h2>Projects</h2>
-
-<div class="projects">
-
-<div class="card">BigBasket Clone</div>
-<div class="card">Porter Clone</div>
-<div class="card">BBC News Clone</div>
-<div class="card">AI Chatbot</div>
-
+<div class="scroll">
+<span></span>
 </div>
 
 </section>
-
-<section>
-
-<h2>GitHub Stats</h2>
-
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight">
-
-</section>
-
-<div id="chatbot">
-
-<div id="chat-header">AI Assistant</div>
-
-<div id="chat-body"></div>
-
-<input id="chat-input" placeholder="Ask about Rani">
-
-</div>
 
 <script>
 
-gsap.from("h1",{y:-100,opacity:0,duration:1});
-gsap.from(".card",{opacity:0,stagger:0.2,duration:1});
+/* TYPING EFFECT */
 
-const input=document.getElementById("chat-input");
-const body=document.getElementById("chat-body");
+const words=[
+"MERN Stack Developer",
+"Frontend Developer",
+"React Developer",
+"AI Enthusiast"
+];
 
-input.addEventListener("keypress",function(e){
+let i=0;
+let j=0;
+let deleting=false;
 
-if(e.key==="Enter"){
+function type(){
 
-let msg=input.value;
+let word=words[i];
 
-body.innerHTML+=`<p><b>You:</b> ${msg}</p>`;
+document.getElementById("typing").innerText=
+deleting?word.substring(0,j--):word.substring(0,j++);
 
-let reply="I'm Rani's AI assistant.";
+if(!deleting && j===word.length){
+deleting=true;
+setTimeout(type,1000);
+return;
+}
 
-if(msg.toLowerCase().includes("project"))
-reply="Rani built BigBasket Clone and AI Chatbot.";
+if(deleting && j===0){
+deleting=false;
+i=(i+1)%words.length;
+}
 
-if(msg.toLowerCase().includes("contact"))
-reply="Contact: LinkedIn or GitHub.";
+setTimeout(type,deleting?40:80);
 
-body.innerHTML+=`<p><b>AI:</b> ${reply}</p>`;
+}
 
-input.value="";
+type();
 
+/* PARTICLES */
+
+tsParticles.load("particles",{
+
+particles:{
+number:{value:80},
+size:{value:3},
+move:{speed:1},
+links:{enable:true},
+color:{value:"#00d2ff"}
 }
 
 });
