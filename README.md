@@ -1,6 +1,6 @@
-<!-- CYBERPUNK BANNER -->
+<!-- CYBERPUNK HEADER -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 <h1 align="center">Hi 👋 I'm Rani Patel</h1>
@@ -11,17 +11,24 @@
 
 ---
 
-# 👩‍💻 About Me
+# 🚀 Advanced Developer Portfolio
 
-🚀 Frontend Developer  
-🤖 AI Enthusiast  
-💻 MERN Stack Learner  
+This repository contains my **interactive developer portfolio** featuring modern web technologies and animations.
+
+### 🌐 Open Portfolio
+➡️ **[View Portfolio Website](./index1.html)**
 
 ---
 
-# 🌐 My Portfolio
+# ✨ Portfolio Features
 
-➡️ **[Open Interactive Portfolio](./index1.html)**
+- 🌐 **3D Rotating Tech Sphere**
+- 🤖 **AI Chatbot Assistant**
+- 🎥 **Parallax Scrolling Effects**
+- ✨ **GSAP Animations**
+- 🧊 **Glassmorphism UI**
+- 📊 **GitHub Stats Integration**
+- 🧩 **Interactive Project Cards**
 
 ---
 
@@ -53,7 +60,7 @@
 
 ---
 
-# 🧩 Projects
+# 🧩 Featured Projects
 
 | Project | Preview |
 |-------|-------|
@@ -81,3 +88,7 @@
 🔗 LinkedIn: https://linkedin.com  
 
 📱 Phone: 9898225910
+
+---
+
+⭐ From [RaniPatel16](https://github.com/RaniPatel16)
