@@ -5,29 +5,82 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Rani Patel | Portfolio</title>
+<title>Rani Patel | AI Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 <style>
 
 body{
 font-family:'Outfit',sans-serif;
+margin:0;
 background:#050507;
 color:white;
-margin:0;
-text-align:center;
+overflow-x:hidden;
 }
 
 header{
-background:linear-gradient(90deg,#8c52ff,#00d2ff);
-padding:60px;
-font-size:30px;
-font-weight:bold;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(120deg,#8c52ff,#00d2ff);
+}
+
+h1{
+font-size:60px;
+}
+
+.glass{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:15px;
 }
 
 section{
-padding:80px 20px;
+padding:100px 20px;
+text-align:center;
+}
+
+.parallax{
+background-image:url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+height:400px;
+}
+
+.tech-sphere{
+width:300px;
+height:300px;
+margin:auto;
+position:relative;
+transform-style:preserve-3d;
+animation:rotateSphere 20s linear infinite;
+}
+
+.tech-item{
+position:absolute;
+font-size:40px;
+left:50%;
+top:50%;
+}
+
+.tech-item:nth-child(1){ transform: translate(-120px,-120px); }
+.tech-item:nth-child(2){ transform: translate(120px,-120px); }
+.tech-item:nth-child(3){ transform: translate(-120px,120px); }
+.tech-item:nth-child(4){ transform: translate(120px,120px); }
+.tech-item:nth-child(5){ transform: translate(0,-150px); }
+.tech-item:nth-child(6){ transform: translate(-150px,0); }
+.tech-item:nth-child(7){ transform: translate(150px,0); }
+
+@keyframes rotateSphere{
+from{transform:rotateY(0deg);}
+to{transform:rotateY(360deg);}
 }
 
 .projects{
@@ -37,11 +90,12 @@ justify-content:center;
 }
 
 .card{
-background:#111;
 width:260px;
 height:160px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(8px);
+border-radius:12px;
 margin:20px;
-border-radius:10px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -50,12 +104,37 @@ transition:0.3s;
 
 .card:hover{
 transform:scale(1.1);
-background:#222;
 }
 
-.tech img{
-width:60px;
-margin:10px;
+#chatbot{
+position:fixed;
+bottom:20px;
+right:20px;
+width:260px;
+background:#111;
+border-radius:10px;
+overflow:hidden;
+}
+
+#chat-header{
+background:#8c52ff;
+padding:10px;
+text-align:center;
+}
+
+#chat-body{
+height:180px;
+overflow:auto;
+padding:10px;
+font-size:14px;
+}
+
+#chat-input{
+width:100%;
+padding:10px;
+border:none;
+background:#000;
+color:white;
 }
 
 </style>
@@ -65,29 +144,36 @@ margin:10px;
 <body>
 
 <header>
-🚀 Rani Patel Developer Portfolio
+
+<div class="glass">
+
+<h1>Rani Patel</h1>
+
+<p>Frontend Developer | AI Enthusiast</p>
+
+</div>
+
 </header>
 
 <section>
 
-<h1>Frontend Developer</h1>
+<h2>3D Tech Sphere</h2>
 
-<p>Building modern web experiences.</p>
+<div class="tech-sphere">
 
-</section>
+<div class="tech-item">HTML</div>
+<div class="tech-item">CSS</div>
+<div class="tech-item">JS</div>
+<div class="tech-item">React</div>
+<div class="tech-item">Node</div>
+<div class="tech-item">Mongo</div>
+<div class="tech-item">Git</div>
 
-<section class="tech">
-
-<h2>Tech Stack</h2>
-
-<img src="https://skillicons.dev/icons?i=html"/>
-<img src="https://skillicons.dev/icons?i=css"/>
-<img src="https://skillicons.dev/icons?i=js"/>
-<img src="https://skillicons.dev/icons?i=react"/>
-<img src="https://skillicons.dev/icons?i=nodejs"/>
-<img src="https://skillicons.dev/icons?i=mongodb"/>
+</div>
 
 </section>
+
+<div class="parallax"></div>
 
 <section>
 
@@ -106,13 +192,55 @@ margin:10px;
 
 <section>
 
-<h2>Contact</h2>
+<h2>GitHub Stats</h2>
 
-<p>GitHub: <a href="https://github.com/RaniPatel16" style="color:#00d2ff;">Profile</a></p>
-
-<p>LinkedIn: <a href="https://linkedin.com" style="color:#00d2ff;">Profile</a></p>
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight">
 
 </section>
+
+<div id="chatbot">
+
+<div id="chat-header">AI Assistant</div>
+
+<div id="chat-body"></div>
+
+<input id="chat-input" placeholder="Ask about Rani">
+
+</div>
+
+<script>
+
+gsap.from("h1",{y:-100,opacity:0,duration:1});
+gsap.from(".card",{opacity:0,stagger:0.2,duration:1});
+
+const input=document.getElementById("chat-input");
+const body=document.getElementById("chat-body");
+
+input.addEventListener("keypress",function(e){
+
+if(e.key==="Enter"){
+
+let msg=input.value;
+
+body.innerHTML+=`<p><b>You:</b> ${msg}</p>`;
+
+let reply="I'm Rani's AI assistant.";
+
+if(msg.toLowerCase().includes("project"))
+reply="Rani built BigBasket Clone and AI Chatbot.";
+
+if(msg.toLowerCase().includes("contact"))
+reply="Contact: LinkedIn or GitHub.";
+
+body.innerHTML+=`<p><b>AI:</b> ${reply}</p>`;
+
+input.value="";
+
+}
+
+});
+
+</script>
 
 </body>
 </html>
