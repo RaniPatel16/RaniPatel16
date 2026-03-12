@@ -1,98 +1,284 @@
-<!-- HEADER BANNER -->
-<h1 align="center">🚀 Hi, I'm Rani Patel</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Open+Source+Contributor&center=true&width=500&height=45">
-</p>
+<head>
 
-<p align="center">
-  Building modern web apps and exploring AI-powered solutions.
-</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
----
+<title>Rani Patel | Developer Portfolio</title>
 
-# 👩‍💻 About Me
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-- 🌱 Currently learning **MERN Stack**
-- 🤖 Interested in **AI & Automation**
-- 🚀 Building **modern web applications**
-- 💡 Love solving real-world problems with code
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
----
+<style>
 
-# 🧠 Tech Stack
+body{
+font-family:'Outfit',sans-serif;
+background:#050507;
+color:white;
+margin:0;
+}
 
-<p align="center">
+section{
+padding:100px 0;
+text-align:center;
+}
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,python"/>
+.banner{
+background:linear-gradient(90deg,#8c52ff,#00d2ff);
+padding:40px;
+font-size:32px;
+font-weight:700;
+}
 
-</p>
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
 
----
+.hero h1{
+font-size:70px;
+}
 
-# 📊 GitHub Statistics
+.typing{
+color:#00d2ff;
+font-size:26px;
+margin-bottom:20px;
+}
 
-<p align="center">
+.tech-sphere{
+width:300px;
+height:300px;
+margin:auto;
+position:relative;
+transform-style:preserve-3d;
+animation:rotateSphere 20s linear infinite;
+}
 
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight" height="180"/>
+.tech-item{
+position:absolute;
+font-size:40px;
+left:50%;
+top:50%;
+}
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight" height="180"/>
+@keyframes rotateSphere{
+from{transform:rotateY(0deg);}
+to{transform:rotateY(360deg);}
+}
 
-</p>
+.projects{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
 
----
+.project-card{
+width:280px;
+height:180px;
+background:#111;
+border-radius:10px;
+margin:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+transition:0.4s;
+font-size:18px;
+}
 
-# 📈 Contribution Activity
+.project-card:hover{
+transform:rotateY(15deg) rotateX(10deg) scale(1.05);
+}
 
-<p align="center">
+.preview img{
+width:70%;
+border-radius:12px;
+}
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night"/>
+.github img{
+max-width:90%;
+margin:10px;
+}
 
-</p>
+.counter{
+margin-top:20px;
+}
 
----
+#chatbot{
+position:fixed;
+bottom:20px;
+right:20px;
+width:260px;
+background:#111;
+border-radius:10px;
+overflow:hidden;
+}
 
-# 🏆 GitHub Achievements
+#chat-header{
+background:#8c52ff;
+padding:10px;
+text-align:center;
+}
 
-<p align="center">
+#chat-body{
+height:180px;
+overflow:auto;
+padding:10px;
+font-size:14px;
+}
 
-<img src="https://github-profile-trophy.vercel.app/?username=RaniPatel16&theme=tokyonight&row=1&column=6"/>
+#chat-input{
+width:100%;
+padding:10px;
+border:none;
+background:#000;
+color:white;
+}
 
-</p>
+</style>
 
----
+</head>
 
-# 🚀 Featured Projects
+<body>
 
-| Project | Description |
-|--------|-------------|
-| 🤖 AI Chatbot | Smart AI chatbot for web apps |
-| 📊 GitHub Portfolio Analyzer | Analyze GitHub profiles |
-| 🏭 Machine Failure Predictor | AI system predicting machine failure |
-| 🌐 Portfolio Website | Personal developer portfolio |
-| 🛒 MERN E-commerce | Full-stack online shopping platform |
-| 📚 Learning Platform | Course learning web platform |
+<div class="banner">
+🚀 Welcome to My Developer Portfolio
+</div>
 
----
+<section class="hero">
 
-# 🌐 Connect With Me
+<h1>Rani Patel</h1>
 
-<p align="center">
+<div class="typing">
+<span id="typing"></span>
+</div>
 
-<a href="https://github.com/RaniPatel16">
-<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github">
-</a>
+</section>
 
-<a href="https://linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin">
-</a>
+<section>
 
-<a href="https://twitter.com/">
-<img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter">
-</a>
+<h2>3D Tech Stack</h2>
 
-</p>
+<div class="tech-sphere">
 
----
+<div class="tech-item"><i class="fab fa-html5"></i></div>
+<div class="tech-item"><i class="fab fa-css3-alt"></i></div>
+<div class="tech-item"><i class="fab fa-js"></i></div>
+<div class="tech-item"><i class="fab fa-react"></i></div>
+<div class="tech-item"><i class="fab fa-node-js"></i></div>
+<div class="tech-item"><i class="fab fa-git-alt"></i></div>
+<div class="tech-item"><i class="fab fa-github"></i></div>
 
-⭐ From [RaniPatel16](https://github.com/RaniPatel16)
+</div>
+
+</section>
+
+<section>
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">BigBasket Clone</div>
+<div class="project-card">Porter Clone</div>
+<div class="project-card">BBC News Clone</div>
+<div class="project-card">AI Chatbot</div>
+
+</div>
+
+</section>
+
+<section class="preview">
+
+<h2>Portfolio Preview</h2>
+
+<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview">
+
+</section>
+
+<section class="github">
+
+<h2>GitHub Stats</h2>
+
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight">
+
+<img src="https://github-profile-trophy.vercel.app/?username=RaniPatel16&theme=tokyonight">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
+
+</section>
+
+<section class="counter">
+
+<h2>Visitor Counter</h2>
+
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat">
+
+</section>
+
+<section>
+
+<h2>Contact</h2>
+
+<p><a href="https://www.linkedin.com" style="color:#00d2ff;">LinkedIn</a></p>
+<p><a href="https://github.com/RaniPatel16" style="color:#00d2ff;">GitHub</a></p>
+<p>Phone: 9898225910</p>
+
+</section>
+
+<div id="chatbot">
+
+<div id="chat-header">AI Assistant</div>
+
+<div id="chat-body"></div>
+
+<input id="chat-input" placeholder="Ask about Rani">
+
+</div>
+
+<script>
+
+const words=["Frontend Developer","UI Designer","React Developer","Creative Coder"];
+
+let i=0;
+let j=0;
+let deleting=false;
+
+function type(){
+
+let word=words[i];
+
+document.getElementById("typing").innerText=
+deleting?word.substring(0,j--):word.substring(0,j++);
+
+if(!deleting && j===word.length){
+deleting=true;
+setTimeout(type,1000);
+return;
+}
+
+if(deleting && j===0){
+deleting=false;
+i=(i+1)%words.length;
+}
+
+setTimeout(type,deleting?40:80);
+
+}
+
+type();
+
+</script>
+
+</body>
+</html>
