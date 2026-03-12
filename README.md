@@ -14,7 +14,7 @@
 ## About
 
 Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
-Currently working with the MERN stack and building interactive web applications.
+Currently learning the MERN stack and building interactive web applications.
 
 ---
 
@@ -54,6 +54,26 @@ View the interactive portfolio website:
 
 ---
 
+## LeetCode Statistics
+
+<p align="center">
+
+<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=contest" />
+
+</p>
+
+---
+
+## GitHub Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+
+</p>
+
+---
+
 ## Projects
 
 | Project | Description |
@@ -77,7 +97,7 @@ View the interactive portfolio website:
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
 </a>
 
-<a href="https://youtube.com">
+<a href="https://www.youtube.com/@RaniPatel-l2o">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
 </a>
 
@@ -92,6 +112,16 @@ View the interactive portfolio website:
 <a href="https://twitter.com">
 <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=twitter">
 </a>
+
+</p>
+
+---
+
+## YouTube Channel
+
+<p align="center">
+
+<img src="https://img.shields.io/youtube/channel/subscribers/UC?style=for-the-badge&logo=youtube&label=YouTube%20Subscribers"/>
 
 </p>
 
