@@ -1,17 +1,22 @@
-<h1 align="center">Hi 👋 I'm Rani Patel</h1>
+<!-- HEADER BANNER -->
+<h1 align="center">🚀 Hi, I'm Rani Patel</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Open+Source+Learner&center=true&width=500&height=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Open+Source+Contributor&center=true&width=500&height=45">
+</p>
+
+<p align="center">
+  Building modern web apps and exploring AI-powered solutions.
 </p>
 
 ---
 
-# 🚀 About Me
+# 👩‍💻 About Me
 
-- 💻 Web Developer  
-- 🤖 Interested in AI and Automation  
-- 📚 Learning MERN Stack  
-- 🚀 Building modern web applications  
+- 🌱 Currently learning **MERN Stack**
+- 🤖 Interested in **AI & Automation**
+- 🚀 Building **modern web applications**
+- 💡 Love solving real-world problems with code
 
 ---
 
@@ -19,7 +24,7 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,python"/>
 
 </p>
 
@@ -29,15 +34,15 @@
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight" height="180"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight" height="180"/>
 
 </p>
 
 ---
 
-# 📈 Activity Graph
+# 📈 Contribution Activity
 
 <p align="center">
 
@@ -47,7 +52,7 @@
 
 ---
 
-# 🏆 GitHub Trophies
+# 🏆 GitHub Achievements
 
 <p align="center">
 
@@ -57,20 +62,20 @@
 
 ---
 
-# 🧩 Featured Projects
+# 🚀 Featured Projects
 
 | Project | Description |
-|-------|-------------|
-| 🤖 AI Chatbot | Smart chatbot built using AI |
+|--------|-------------|
+| 🤖 AI Chatbot | Smart AI chatbot for web apps |
 | 📊 GitHub Portfolio Analyzer | Analyze GitHub profiles |
-| 🏭 Machine Failure Predictor | Predict machine breakdown using AI |
-| 🌐 Portfolio Website | Modern responsive developer portfolio |
-| 🛒 E-commerce Website | Full stack MERN shopping platform |
-| 📚 Learning Platform | Online course platform |
+| 🏭 Machine Failure Predictor | AI system predicting machine failure |
+| 🌐 Portfolio Website | Personal developer portfolio |
+| 🛒 MERN E-commerce | Full-stack online shopping platform |
+| 📚 Learning Platform | Course learning web platform |
 
 ---
 
-# 📬 Contact Me
+# 🌐 Connect With Me
 
 <p align="center">
 
