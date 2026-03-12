@@ -1,62 +1,82 @@
-# 👋 Hi, I'm Rani Patel
+<!-- CYBERPUNK BANNER -->
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-🚀 Frontend Developer | MERN Stack | AI Enthusiast  
+<h1 align="center">Hi 👋 I'm Rani Patel</h1>
 
----
-
-## 🌐 My Developer Portfolio
-
-You can view my interactive portfolio here:
-
-➡️ [Open Portfolio](./index1.html)
-
----
-
-## 🧠 Tech Stack
-
-![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![React](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react)
-![NodeJS](https://img.shields.io/badge/NodeJS-green?style=for-the-badge&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb)
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Creative+Coder&center=true&width=500&height=45">
+</p>
 
 ---
 
-## 📊 GitHub Stats
+# 👩‍💻 About Me
 
-![Stats](https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight)
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight)
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RaniPatel16&layout=compact&theme=tokyonight)
+🚀 Frontend Developer  
+🤖 AI Enthusiast  
+💻 MERN Stack Learner  
 
 ---
 
-## 📈 Contribution Graph
+# 🌐 My Portfolio
 
-![Activity](https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night)
-
----
-
-## 🏆 GitHub Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=RaniPatel16&theme=tokyonight)
+➡️ **[Open Interactive Portfolio](./index1.html)**
 
 ---
 
-## 👨‍💻 Projects
+# 🧠 Tech Stack
 
-- 🛒 BigBasket Clone  
-- 🚚 Porter Clone  
-- 📰 BBC News Clone  
-- 🤖 AI Chatbot  
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
+
+</p>
 
 ---
 
-## 📬 Contact
+# 📊 GitHub Dashboard
 
-🌐 GitHub: https://github.com/RaniPatel16  
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night"/>
+
+</p>
+
+---
+
+# 🧩 Projects
+
+| Project | Preview |
+|-------|-------|
+| BigBasket Clone | ![](https://via.placeholder.com/200x120) |
+| Porter Clone | ![](https://via.placeholder.com/200x120) |
+| BBC News Clone | ![](https://via.placeholder.com/200x120) |
+| AI Chatbot | ![](https://via.placeholder.com/200x120) |
+
+---
+
+# 👀 Visitor Counter
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=for-the-badge" />
+
+</p>
+
+---
+
+# 📬 Contact
+
+🔗 GitHub: https://github.com/RaniPatel16  
 
 🔗 LinkedIn: https://linkedin.com  
 
