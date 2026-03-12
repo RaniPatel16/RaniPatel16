@@ -1,4 +1,3 @@
-<!-- File name: index1.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Rani Patel | Developer Portfolio</title>
+<title>Rani Patel | Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -19,66 +16,18 @@ font-family:'Outfit',sans-serif;
 background:#050507;
 color:white;
 margin:0;
-}
-
-section{
-padding:100px 20px;
 text-align:center;
 }
 
-.banner{
+header{
 background:linear-gradient(90deg,#8c52ff,#00d2ff);
-padding:40px;
-font-size:32px;
-font-weight:700;
+padding:60px;
+font-size:30px;
+font-weight:bold;
 }
 
-.hero{
-height:80vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-}
-
-.hero h1{
-font-size:70px;
-margin:0;
-}
-
-.typing{
-color:#00d2ff;
-font-size:26px;
-margin-top:10px;
-}
-
-.tech-sphere{
-width:300px;
-height:300px;
-margin:auto;
-position:relative;
-transform-style:preserve-3d;
-animation:rotateSphere 20s linear infinite;
-}
-
-.tech-item{
-position:absolute;
-font-size:40px;
-left:50%;
-top:50%;
-}
-
-.tech-item:nth-child(1){ transform: translate(-120px,-120px); }
-.tech-item:nth-child(2){ transform: translate(120px,-120px); }
-.tech-item:nth-child(3){ transform: translate(-120px,120px); }
-.tech-item:nth-child(4){ transform: translate(120px,120px); }
-.tech-item:nth-child(5){ transform: translate(0,-150px); }
-.tech-item:nth-child(6){ transform: translate(-150px,0); }
-.tech-item:nth-child(7){ transform: translate(150px,0); }
-
-@keyframes rotateSphere{
-from{transform:rotateY(0deg);}
-to{transform:rotateY(360deg);}
+section{
+padding:80px 20px;
 }
 
 .projects{
@@ -87,70 +36,26 @@ flex-wrap:wrap;
 justify-content:center;
 }
 
-.project-card{
+.card{
+background:#111;
 width:260px;
 height:160px;
-background:#111;
-border-radius:10px;
 margin:20px;
+border-radius:10px;
 display:flex;
 align-items:center;
 justify-content:center;
-transition:0.4s;
-font-size:18px;
-cursor:pointer;
+transition:0.3s;
 }
 
-.project-card:hover{
+.card:hover{
 transform:scale(1.1);
 background:#222;
 }
 
-.preview img{
-width:70%;
-border-radius:12px;
-}
-
-.github img{
-max-width:90%;
+.tech img{
+width:60px;
 margin:10px;
-}
-
-.counter{
-margin-top:20px;
-}
-
-#chatbot{
-position:fixed;
-bottom:20px;
-right:20px;
-width:260px;
-background:#111;
-border-radius:10px;
-overflow:hidden;
-box-shadow:0 0 20px rgba(0,0,0,0.5);
-}
-
-#chat-header{
-background:#8c52ff;
-padding:10px;
-text-align:center;
-font-weight:bold;
-}
-
-#chat-body{
-height:180px;
-overflow:auto;
-padding:10px;
-font-size:14px;
-}
-
-#chat-input{
-width:100%;
-padding:10px;
-border:none;
-background:#000;
-color:white;
 }
 
 </style>
@@ -159,35 +64,28 @@ color:white;
 
 <body>
 
-<div class="banner">
-🚀 Welcome to My Developer Portfolio
-</div>
-
-<section class="hero">
-
-<h1>Rani Patel</h1>
-
-<div class="typing">
-<span id="typing"></span>
-</div>
-
-</section>
+<header>
+🚀 Rani Patel Developer Portfolio
+</header>
 
 <section>
 
-<h2>3D Tech Stack</h2>
+<h1>Frontend Developer</h1>
 
-<div class="tech-sphere">
+<p>Building modern web experiences.</p>
 
-<div class="tech-item"><i class="fab fa-html5"></i></div>
-<div class="tech-item"><i class="fab fa-css3-alt"></i></div>
-<div class="tech-item"><i class="fab fa-js"></i></div>
-<div class="tech-item"><i class="fab fa-react"></i></div>
-<div class="tech-item"><i class="fab fa-node-js"></i></div>
-<div class="tech-item"><i class="fab fa-git-alt"></i></div>
-<div class="tech-item"><i class="fab fa-github"></i></div>
+</section>
 
-</div>
+<section class="tech">
+
+<h2>Tech Stack</h2>
+
+<img src="https://skillicons.dev/icons?i=html"/>
+<img src="https://skillicons.dev/icons?i=css"/>
+<img src="https://skillicons.dev/icons?i=js"/>
+<img src="https://skillicons.dev/icons?i=react"/>
+<img src="https://skillicons.dev/icons?i=nodejs"/>
+<img src="https://skillicons.dev/icons?i=mongodb"/>
 
 </section>
 
@@ -197,38 +95,12 @@ color:white;
 
 <div class="projects">
 
-<div class="project-card">BigBasket Clone</div>
-<div class="project-card">Porter Clone</div>
-<div class="project-card">BBC News Clone</div>
-<div class="project-card">AI Chatbot</div>
+<div class="card">BigBasket Clone</div>
+<div class="card">Porter Clone</div>
+<div class="card">BBC News Clone</div>
+<div class="card">AI Chatbot</div>
 
 </div>
-
-</section>
-
-<section class="preview">
-
-<h2>Portfolio Preview</h2>
-
-<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview">
-
-</section>
-
-<section class="github">
-
-<h2>GitHub Stats</h2>
-
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight">
-
-</section>
-
-<section class="counter">
-
-<h2>Visitor Counter</h2>
-
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue">
 
 </section>
 
@@ -236,55 +108,11 @@ color:white;
 
 <h2>Contact</h2>
 
-<p><a href="https://www.linkedin.com" style="color:#00d2ff;">LinkedIn</a></p>
-<p><a href="https://github.com/RaniPatel16" style="color:#00d2ff;">GitHub</a></p>
-<p>Phone: 9898225910</p>
+<p>GitHub: <a href="https://github.com/RaniPatel16" style="color:#00d2ff;">Profile</a></p>
+
+<p>LinkedIn: <a href="https://linkedin.com" style="color:#00d2ff;">Profile</a></p>
 
 </section>
-
-<div id="chatbot">
-
-<div id="chat-header">AI Assistant</div>
-
-<div id="chat-body"></div>
-
-<input id="chat-input" placeholder="Ask about Rani">
-
-</div>
-
-<script>
-
-const words=["Frontend Developer","UI Designer","React Developer","Creative Coder"];
-
-let i=0;
-let j=0;
-let deleting=false;
-
-function type(){
-
-let word=words[i];
-
-document.getElementById("typing").innerText=
-deleting?word.substring(0,j--):word.substring(0,j++);
-
-if(!deleting && j===word.length){
-deleting=true;
-setTimeout(type,1000);
-return;
-}
-
-if(deleting && j===0){
-deleting=false;
-i=(i+1)%words.length;
-}
-
-setTimeout(type,deleting?40:80);
-
-}
-
-type();
-
-</script>
 
 </body>
 </html>
