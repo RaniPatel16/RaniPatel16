@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Rani Patel Portfolio</title>
+<title>Rani Patel</title>
 
 <style>
 body {
@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 
-/* ================= HEADER ================= */
+/* HEADER */
 .header {
   height: 200px;
   display: flex;
@@ -22,46 +22,31 @@ body {
   font-size: 42px;
   font-weight: bold;
   background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
-  transform: perspective(900px) rotateX(12deg);
+  transform: perspective(900px) rotateX(10deg);
   animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
-  0%,100% { transform: perspective(900px) rotateX(12deg) translateY(0); }
-  50% { transform: perspective(900px) rotateX(12deg) translateY(-10px); }
+  0%,100% { transform: perspective(900px) rotateX(10deg) translateY(0); }
+  50% { transform: perspective(900px) rotateX(10deg) translateY(-8px); }
 }
 
-/* ================= NAME ================= */
+/* NAME */
 .name {
   margin-top: 30px;
   font-size: 32px;
   color: #ccc;
 }
 
-/* ================= TYPING EFFECT ================= */
+/* TYPING (REAL JS CONTROLLED) */
 .typing {
   font-size: 22px;
   color: #00c9ff;
   font-family: monospace;
-  border-right: 3px solid #00c9ff;
-  width: fit-content;
-  margin: auto;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 4s steps(20), blink 0.5s infinite alternate;
+  margin-top: 10px;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 260px }
-}
-
-@keyframes blink {
-  from { border-color: transparent }
-  to { border-color: #00c9ff }
-}
-
-/* ================= TERMINAL ================= */
+/* TERMINAL */
 .terminal {
   margin: 40px auto;
   width: fit-content;
@@ -69,14 +54,16 @@ body {
   background: #111;
   border-radius: 8px;
   box-shadow: 0 0 10px #00c9ff;
+  font-family: monospace;
+  text-align: left;
 }
 
-/* ================= SECTIONS ================= */
+/* SECTION */
 .section {
   margin: 40px 20px;
 }
 
-/* ================= 3D BUTTON ================= */
+/* 3D BUTTON */
 .btn {
   display: inline-block;
   padding: 12px 25px;
@@ -86,17 +73,16 @@ body {
   border: 2px solid #00c9ff;
   border-radius: 10px;
   transition: 0.3s;
-  transform: perspective(500px) rotateX(0deg);
 }
 
 .btn:hover {
   background: #00c9ff;
   color: black;
-  transform: perspective(500px) rotateX(15deg) scale(1.1);
+  transform: translateY(-5px) scale(1.05);
   box-shadow: 0 10px 20px rgba(0,201,255,0.5);
 }
 
-/* ================= TECH STACK 3D ================= */
+/* TECH ICONS */
 .tech img {
   width: 60px;
   margin: 10px;
@@ -108,7 +94,7 @@ body {
   filter: drop-shadow(0 10px 10px #00c9ff);
 }
 
-/* ================= PROJECT CARDS ================= */
+/* PROJECT CARDS */
 .card {
   display: inline-block;
   width: 250px;
@@ -134,7 +120,7 @@ body {
 <div class="header">Rani Patel</div>
 
 <div class="name">Rani Patel</div>
-<div class="typing">Building Future Web Apps</div>
+<div class="typing" id="typing"></div>
 
 <!-- TERMINAL -->
 <div class="terminal">
@@ -197,6 +183,22 @@ Currently learning the MERN stack and building interactive web applications.
 <a href="#" class="btn">LeetCode</a>
 
 </div>
+
+<!-- TYPING SCRIPT -->
+<script>
+const text = "Building Future Web Apps";
+let i = 0;
+const speed = 80;
+
+function type() {
+  if (i < text.length) {
+    document.getElementById("typing").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(type, speed);
+  }
+}
+type();
+</script>
 
 </body>
 </html>
