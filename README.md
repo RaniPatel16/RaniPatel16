@@ -1,26 +1,73 @@
 <!-- HEADER -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,100:243B55&height=180&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Rani%20Patel&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
-<h2 align="center">Hi 👋, I'm Rani Patel</h2>
+<h1 align="center">Rani Patel</h1>
+
+<!-- ANIMATED TYPING -->
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Building+Futuristic+Web+Apps&center=true&width=500&height=40&color=00C9FF">
+</p>
+
+---
+
+<!-- HACKER TERMINAL -->
+<p align="center">
+<code>
+> Initializing Profile... <br>
+> Loading Skills... <br>
+> Access Granted ✅
+</code>
+</p>
+
+---
+
+## About
+
+Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
+Currently learning the MERN stack and building interactive web applications.
+
+---
+
+## Portfolio
 
 <p align="center">
-Frontend Developer • MERN Stack Learner • AI Enthusiast
+<a href="https://your-portfolio-link.com">
+<img src="https://img.shields.io/badge/Open%20Portfolio-00C9FF?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 </p>
 
 ---
 
-## 🚀 About Me
+## 🖼️ Project Screenshots
 
-- 💻 Frontend Developer passionate about building modern UI
-- 🌱 Currently learning **MERN Stack**
-- 🤖 Exploring **AI + Web Integration**
-- 🎯 Goal: Become a Full Stack Developer
+<p align="center">
+<img src="https://via.placeholder.com/600x300?text=BigBasket+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=Porter+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=BBC+News+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=AI+Chatbot"/>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+## ⚡ Animated Project Cards
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BigBasket-Clone&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=Porter-Clone&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BBC-News-Clone&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=AI-Chatbot&theme=tokyonight"/>
+
+</p>
+
+---
+
+## Technology Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
@@ -28,61 +75,91 @@ Frontend Developer • MERN Stack Learner • AI Enthusiast
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Statistics
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight" height="150"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
 
 </p>
 
----
-
-## 📈 Activity Graph
-
 <p align="center">
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night"/>
+
 </p>
 
 ---
 
-## 💡 Projects
+## LeetCode Statistics
 
-- 🛒 **BigBasket Clone** – E-commerce UI  
-- 🚚 **Porter Clone** – Logistics platform UI  
-- 📰 **BBC News Clone** – News website  
-- 🤖 **AI Chatbot** – Conversational UI  
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=contest" />
+</p>
 
 ---
 
-## 🔗 Connect With Me
+## GitHub Contribution Snake
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+---
+
+## Projects
+
+| Project | Description |
+|-------|-------------|
+| BigBasket Clone | E-commerce interface inspired by BigBasket |
+| Porter Clone | Logistics platform UI recreation |
+| BBC News Clone | News website layout and functionality |
+| AI Chatbot | Web chatbot demonstrating conversational UI |
+
+---
+
+## Contact
 
 <p align="center">
 
 <a href="https://github.com/RaniPatel16">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
 </a>
 
 <a href="https://linkedin.com/in/YOUR_LINK">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
 </a>
 
 <a href="https://www.youtube.com/@RaniPatel-l2o">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube"/>
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
 </a>
 
-<a href="https://leetcode.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode"/>
+<a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode">
+</a>
+
+<a href="https://sololearn.com">
+<img src="https://img.shields.io/badge/SoloLearn-149EF2?style=for-the-badge&logo=sololearn">
+</a>
+
+<a href="https://twitter.com">
+<img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=twitter">
 </a>
 
 </p>
 
 ---
 
-## 👀 Profile Views
+## YouTube Channel
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue"/>
+<img src="https://img.shields.io/youtube/channel/subscribers/UC?style=for-the-badge&logo=youtube&label=YouTube%20Subscribers"/>
+</p>
+
+---
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat"/>
 </p>
