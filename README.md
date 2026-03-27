@@ -1,218 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rani Patel - Portfolio</title>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #020b12;
-  font-family: 'Segoe UI', sans-serif;
-  color: white;
-  text-align: center;
-  overflow-x: hidden;
-}
-
-/* HEADER FIX */
-.header {
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 42px;
-  font-weight: bold;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  transform: perspective(900px) rotateX(8deg);
-  animation: floatHeader 6s ease-in-out infinite;
-}
-
-@keyframes floatHeader {
-  0%,100% { transform: perspective(900px) rotateX(8deg) translateY(0); }
-  50% { transform: perspective(900px) rotateX(8deg) translateY(-10px); }
-}
-
-/* NAME */
-.name {
-  margin-top: 40px;
-  font-size: 32px;
-  color: #ccc;
-}
-
-/* FIXED TYPING */
-.typing {
-  font-size: 22px;
-  color: #00c9ff;
-  font-family: monospace;
-  margin-top: 10px;
-}
-
-/* TERMINAL */
-.terminal {
-  margin: 40px auto;
-  padding: 15px;
-  background: #111;
-  border-radius: 8px;
-  width: fit-content;
-  box-shadow: 0 0 10px #00c9ff;
-  font-family: monospace;
-}
-
-/* SECTION */
-.section {
-  margin: 60px 20px;
-}
-
-/* BUTTON FIX (3D clean) */
-.btn {
-  display: inline-block;
-  padding: 12px 25px;
-  margin: 10px;
-  border: 2px solid #00c9ff;
-  color: #00c9ff;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #00c9ff;
-  color: black;
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,201,255,0.5);
-}
-
-/* TECH FIX */
-.tech img {
-  width: 60px;
-  margin: 10px;
-  transition: 0.3s;
-}
-
-.tech img:hover {
-  transform: scale(1.2) translateY(-8px);
-  filter: drop-shadow(0 8px 10px #00c9ff);
-}
-
-/* CARDS FIX */
-.card {
-  display: inline-block;
-  padding: 15px;
-  margin: 10px;
-  border: 1px solid #00c9ff;
-  background: #0f2027;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0,201,255,0.4);
-}
-</style>
-
-</head>
-
-<body>
-
 <!-- HEADER -->
-<div class="header">Rani Patel</div>
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=45&fontColor=ffffff&animation=twinkling"/>
+</p>
 
-<div class="name">Rani Patel</div>
-<div class="typing" id="typing"></div>
+<h1 align="center">Rani Patel</h1>
 
-<!-- TERMINAL -->
-<div class="terminal">
+<!-- TYPING -->
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=MERN+Stack+Developer;Frontend+Developer;AI+Enthusiast;Building+Future+Web+Apps&center=true&width=500&height=40&color=00C9FF">
+</p>
+
+---
+
+<!-- TERMINAL STYLE -->
+<p align="center">
+<code>
 > Initializing Profile... <br>
 > Loading Skills... <br>
 > Access Granted ✅
-</div>
-
-<!-- ABOUT -->
-<div class="section">
-<h2>About</h2>
-<p>
-Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.<br>
-Currently learning the MERN stack.
+</code>
 </p>
-</div>
 
-<!-- PORTFOLIO -->
-<div class="section">
-<h2>Portfolio</h2>
-<a href="#" class="btn">Open Portfolio</a>
-</div>
+---
 
-<!-- PROJECTS -->
-<div class="section">
-<h2>Projects</h2>
+## 🚀 About
 
-<div class="card">BigBasket Clone</div>
-<div class="card">Porter Clone</div>
-<div class="card">BBC News Clone</div>
-<div class="card">AI Chatbot</div>
+Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
+Currently learning the MERN stack and building interactive web applications.
 
-</div>
+---
 
-<!-- TECH STACK -->
-<div class="section">
-<h2>Technology Stack</h2>
+## 🌐 Portfolio
 
-<div class="tech">
-<img src="https://skillicons.dev/icons?i=html">
-<img src="https://skillicons.dev/icons?i=css">
-<img src="https://skillicons.dev/icons?i=js">
-<img src="https://skillicons.dev/icons?i=react">
-<img src="https://skillicons.dev/icons?i=nodejs">
-<img src="https://skillicons.dev/icons?i=mongodb">
-</div>
+<p align="center">
+<a href="https://your-portfolio-link.com">
+<img src="https://img.shields.io/badge/Open%20Portfolio-00C9FF?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+</p>
 
-</div>
+---
 
-<!-- CONTACT -->
-<div class="section">
-<h2>Contact</h2>
+## 🖼️ Project Screenshots
 
-<a href="https://github.com/RaniPatel16" class="btn">GitHub</a>
-<a href="#" class="btn">LinkedIn</a>
-<a href="#" class="btn">LeetCode</a>
+<p align="center">
+<img src="https://via.placeholder.com/600x300?text=BigBasket+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=Porter+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=BBC+News+Clone"/>
+<img src="https://via.placeholder.com/600x300?text=AI+Chatbot"/>
+</p>
 
-</div>
+---
 
-<!-- FIXED TYPING SCRIPT -->
-<script>
-const words = ["MERN Stack Developer", "Frontend Developer", "AI Enthusiast"];
-let i = 0, j = 0, current = "", isDeleting = false;
+## ⚡ Projects (Live Cards)
 
-function type() {
-  current = words[i];
+<p align="center">
 
-  if (!isDeleting) {
-    document.getElementById("typing").innerHTML = current.substring(0, j++);
-    if (j > current.length) {
-      isDeleting = true;
-      setTimeout(type, 1000);
-      return;
-    }
-  } else {
-    document.getElementById("typing").innerHTML = current.substring(0, j--);
-    if (j === 0) {
-      isDeleting = false;
-      i = (i + 1) % words.length;
-    }
-  }
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BigBasket-Clone&theme=tokyonight"/>
 
-  setTimeout(type, isDeleting ? 50 : 100);
-}
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=Porter-Clone&theme=tokyonight"/>
 
-type();
-</script>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BBC-News-Clone&theme=tokyonight"/>
 
-</body>
-</html>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=AI-Chatbot&theme=tokyonight"/>
+
+</p>
+
+---
+
+## 🛠️ Technology Stack
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
+</p>
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
+
+</p>
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night"/>
+</p>
+
+---
+
+## 🧠 LeetCode Statistics
+
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=contest"/>
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+---
+
+## 💡 Projects
+
+| Project | Description |
+|--------|------------|
+| BigBasket Clone | E-commerce interface inspired by BigBasket |
+| Porter Clone | Logistics platform UI recreation |
+| BBC News Clone | News website layout |
+| AI Chatbot | Conversational UI |
+
+---
+
+## 📬 Contact
+
+<p align="center">
+
+<a href="https://github.com/RaniPatel16">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://linkedin.com/in/YOUR_LINK">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="https://www.youtube.com/@RaniPatel-l2o">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
+</a>
+
+<a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode">
+</a>
+
+</p>
+
+---
+
+## 👀 Profile Views
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat"/>
+</p>
