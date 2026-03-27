@@ -1,165 +1,202 @@
-<!-- 3D ANIMATED HEADER -->
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=45&fontColor=ffffff&animation=twinkling"/>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rani Patel Portfolio</title>
 
-<h1 align="center">Rani Patel</h1>
+<style>
+body {
+  margin: 0;
+  background: #020b12;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
 
-<!-- ANIMATED TYPING -->
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer;MERN+Stack+Developer;AI+Enthusiast;Building+Futuristic+Web+Apps&center=true&width=500&height=40&color=00C9FF">
-</p>
+/* ================= HEADER ================= */
+.header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  transform: perspective(900px) rotateX(12deg);
+  animation: float 5s ease-in-out infinite;
+}
 
----
+@keyframes float {
+  0%,100% { transform: perspective(900px) rotateX(12deg) translateY(0); }
+  50% { transform: perspective(900px) rotateX(12deg) translateY(-10px); }
+}
 
-<!-- HACKER TERMINAL -->
-<p align="center">
-<code>
+/* ================= NAME ================= */
+.name {
+  margin-top: 30px;
+  font-size: 32px;
+  color: #ccc;
+}
+
+/* ================= TYPING EFFECT ================= */
+.typing {
+  font-size: 22px;
+  color: #00c9ff;
+  font-family: monospace;
+  border-right: 3px solid #00c9ff;
+  width: fit-content;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(20), blink 0.5s infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 260px }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #00c9ff }
+}
+
+/* ================= TERMINAL ================= */
+.terminal {
+  margin: 40px auto;
+  width: fit-content;
+  padding: 15px;
+  background: #111;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00c9ff;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+  margin: 40px 20px;
+}
+
+/* ================= 3D BUTTON ================= */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 10px;
+  color: #00c9ff;
+  text-decoration: none;
+  border: 2px solid #00c9ff;
+  border-radius: 10px;
+  transition: 0.3s;
+  transform: perspective(500px) rotateX(0deg);
+}
+
+.btn:hover {
+  background: #00c9ff;
+  color: black;
+  transform: perspective(500px) rotateX(15deg) scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,201,255,0.5);
+}
+
+/* ================= TECH STACK 3D ================= */
+.tech img {
+  width: 60px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.tech img:hover {
+  transform: translateY(-10px) scale(1.2);
+  filter: drop-shadow(0 10px 10px #00c9ff);
+}
+
+/* ================= PROJECT CARDS ================= */
+.card {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  padding: 15px;
+  background: #0f2027;
+  border: 1px solid #00c9ff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,201,255,0.4);
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">Rani Patel</div>
+
+<div class="name">Rani Patel</div>
+<div class="typing">Building Future Web Apps</div>
+
+<!-- TERMINAL -->
+<div class="terminal">
 > Initializing Profile... <br>
 > Loading Skills... <br>
 > Access Granted ✅
-</code>
-</p>
+</div>
 
----
-
-## About
-
-Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
+<!-- ABOUT -->
+<div class="section">
+<h2>About</h2>
+<p>
+Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.<br>
 Currently learning the MERN stack and building interactive web applications.
-
----
-
-## Portfolio
-
-<p align="center">
-<a href="https://your-portfolio-link.com">
-<img src="https://img.shields.io/badge/Open%20Portfolio-00C9FF?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
 </p>
+</div>
 
----
+<!-- PORTFOLIO -->
+<div class="section">
+<h2>Portfolio</h2>
+<a href="#" class="btn">Open Portfolio</a>
+</div>
 
-## 🖼️ Project Screenshots
+<!-- PROJECTS -->
+<div class="section">
+<h2>Projects</h2>
 
-<p align="center">
-<img src="https://via.placeholder.com/600x300?text=BigBasket+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=Porter+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=BBC+News+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=AI+Chatbot"/>
-</p>
+<div class="card">BigBasket Clone</div>
+<div class="card">Porter Clone</div>
+<div class="card">BBC News Clone</div>
+<div class="card">AI Chatbot</div>
 
----
+</div>
 
-## ⚡ Animated Project Cards
+<!-- TECH STACK -->
+<div class="section">
+<h2>Technology Stack</h2>
 
-<p align="center">
+<div class="tech">
+<img src="https://skillicons.dev/icons?i=html">
+<img src="https://skillicons.dev/icons?i=css">
+<img src="https://skillicons.dev/icons?i=js">
+<img src="https://skillicons.dev/icons?i=react">
+<img src="https://skillicons.dev/icons?i=nodejs">
+<img src="https://skillicons.dev/icons?i=express">
+<img src="https://skillicons.dev/icons?i=mongodb">
+<img src="https://skillicons.dev/icons?i=git">
+<img src="https://skillicons.dev/icons?i=github">
+<img src="https://skillicons.dev/icons?i=vscode">
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BigBasket-Clone&theme=tokyonight"/>
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=Porter-Clone&theme=tokyonight"/>
+<!-- CONTACT -->
+<div class="section">
+<h2>Contact</h2>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BBC-News-Clone&theme=tokyonight"/>
+<a href="https://github.com/RaniPatel16" class="btn">GitHub</a>
+<a href="#" class="btn">LinkedIn</a>
+<a href="#" class="btn">LeetCode</a>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=AI-Chatbot&theme=tokyonight"/>
+</div>
 
-</p>
-
----
-
-## Technology Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
-</p>
-
----
-
-## GitHub Statistics
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&theme=tokyo-night"/>
-
-</p>
-
----
-
-## LeetCode Statistics
-
-<p align="center">
-<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=contest" />
-</p>
-
----
-
-## GitHub Contribution Snake
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-
----
-
-## Projects
-
-| Project | Description |
-|-------|-------------|
-| BigBasket Clone | E-commerce interface inspired by BigBasket |
-| Porter Clone | Logistics platform UI recreation |
-| BBC News Clone | News website layout and functionality |
-| AI Chatbot | Web chatbot demonstrating conversational UI |
-
----
-
-## Contact
-
-<p align="center">
-
-<a href="https://github.com/RaniPatel16">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINK">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="https://www.youtube.com/@RaniPatel-l2o">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
-</a>
-
-<a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode">
-</a>
-
-<a href="https://sololearn.com">
-<img src="https://img.shields.io/badge/SoloLearn-149EF2?style=for-the-badge&logo=sololearn">
-</a>
-
-<a href="https://twitter.com">
-<img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=twitter">
-</a>
-
-</p>
-
----
-
-## YouTube Channel
-
-<p align="center">
-<img src="https://img.shields.io/youtube/channel/subscribers/UC?style=for-the-badge&logo=youtube&label=YouTube%20Subscribers"/>
-</p>
-
----
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat"/>
-</p>
+</body>
+</html>
