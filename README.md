@@ -1,32 +1,50 @@
-<!-- HEADER -->
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Rani%20Patel&fontSize=45&fontColor=ffffff&animation=twinkling"/>
-</p>
+<div align="center">
 
-<h1 align="center">Rani Patel</h1>
+<!-- 🧠 TERMINAL INTRO (TOP - NO EMPTY SPACE) -->
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&duration=1500&pause=300&color=00FF9C&center=true&vCenter=true&width=750&lines=>>>+Hello,+Welcome+to+My+Profile+👋;>>>+Loading+Rani+Patel...;>>>+Initializing+MERN+Stack...;>>>+Access+Granted+✅"/>
 
-<!-- TYPING -->
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=MERN+Stack+Developer;Frontend+Developer;AI+Enthusiast;Building+Future+Web+Apps&center=true&width=500&height=40&color=00C9FF">
-</p>
+<br/>
+
+<!-- ⚡ NAME -->
+<h1>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=45&duration=1800&pause=400&color=00FF9C&center=true&vCenter=true&width=700&lines=⚡+Rani+Patel+⚡"/>
+</h1>
+
+<!-- 💻 ROLE -->
+<img src="https://readme-typing-svg.herokuapp.com/?lines=>>>+MERN+Stack+Developer;>>>+Frontend+Engineer;>>>+Creative+UI+Designer;>>>+Problem+Solver&center=true&width=700&height=45&color=00FF9C">
+
+<br/><br/>
+
+<!-- 🔗 BUTTONS -->
+<a href="https://linkedin.com/in/YOUR_LINK">
+  <img src="https://img.shields.io/badge/LinkedIn-00FF9C?style=for-the-badge&logo=linkedin&logoColor=black"/>
+</a>
+&nbsp;
+<a href="https://github.com/RaniPatel16">
+  <img src="https://img.shields.io/badge/GitHub-00FF9C?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+&nbsp;
+<a href="mailto:your-email@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
+</a>
+
+</div>
 
 ---
 
-<!-- TERMINAL STYLE -->
-<p align="center">
-<code>
-> Initializing Profile... <br>
-> Loading Skills... <br>
-> Access Granted ✅
-</code>
-</p>
+## 👩‍💻 About Me
 
----
+<div align="center">
 
-## 🚀 About
+✨ **Hi, I'm Rani Patel**
 
-Frontend developer focused on building modern web interfaces and exploring AI-driven solutions.  
-Currently learning the MERN stack and building interactive web applications.
+💻 Full Stack Developer building **modern & scalable apps**
+
+🚀 Specialized in **MERN Stack + UI**
+
+💡 *"Turning ideas into real digital experiences"*
+
+</div>
 
 ---
 
@@ -40,34 +58,20 @@ Currently learning the MERN stack and building interactive web applications.
 
 ---
 
-## 🖼️ Project Screenshots
-
-<p align="center">
-<img src="https://via.placeholder.com/600x300?text=BigBasket+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=Porter+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=BBC+News+Clone"/>
-<img src="https://via.placeholder.com/600x300?text=AI+Chatbot"/>
-</p>
-
----
-
-## ⚡ Projects (Live Cards)
+## ⚡ Featured Projects
 
 <p align="center">
 
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BigBasket-Clone&theme=tokyonight"/>
-
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=Porter-Clone&theme=tokyonight"/>
-
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BBC-News-Clone&theme=tokyonight"/>
-
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=AI-Chatbot&theme=tokyonight"/>
 
 </p>
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
@@ -75,12 +79,11 @@ Currently learning the MERN stack and building interactive web applications.
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Stats
 
 <p align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=tokyonight"/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=tokyonight"/>
 
 </p>
@@ -91,59 +94,33 @@ Currently learning the MERN stack and building interactive web applications.
 
 ---
 
-## 🧠 LeetCode Statistics
+## ⚡ Coding Zone
 
-<p align="center">
-<img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Karma&ext=contest"/>
-</p>
+<div align="center">
+
+<h3 style="color:#00FF9C;">👨‍💻 Coding in Progress...</h3>
+
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="420"/>
+
+</div>
 
 ---
 
+## 💡 What I Do
+
+- 🚀 Build full-stack apps  
+- 🎨 Design UI  
+- 🤖 Explore AI  
+- 📈 Solve problems  
+
+---
 ## 🐍 Contribution Snake
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 </p>
-
----
-
-## 💡 Projects
-
-| Project | Description |
-|--------|------------|
-| BigBasket Clone | E-commerce interface inspired by BigBasket |
-| Porter Clone | Logistics platform UI recreation |
-| BBC News Clone | News website layout |
-| AI Chatbot | Conversational UI |
-
----
-
-## 📬 Contact
-
-<p align="center">
-
-<a href="https://github.com/RaniPatel16">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINK">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="https://www.youtube.com/@RaniPatel-l2o">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube">
-</a>
-
-<a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode">
-</a>
-
-</p>
-
----
-
 ## 👀 Profile Views
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=blue&style=flat"/>
+<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=00FF9C"/>
 </p>
