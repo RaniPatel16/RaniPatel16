@@ -16,37 +16,21 @@
 <br/><br/>
 
 <!-- 🔗 BUTTONS -->
-<a href="https://linkedin.com/in/YOUR_LINK">
+<a href="https://linkedin.com/in/rani-patel-5aa5a3397">
   <img src="https://img.shields.io/badge/LinkedIn-00FF9C?style=for-the-badge&logo=linkedin&logoColor=black"/>
 </a>
 &nbsp;
-<a href="https://github.com/RaniPatel16">
-  <img src="https://img.shields.io/badge/GitHub-00FF9C?style=for-the-badge&logo=github&logoColor=black"/>
-</a>
-&nbsp;
+
+
 <a href="https://leetcode.com/u/QGxRFjxdGR/">
-  <img src="https://img.shields.io/badge/Gmail-00FF9C?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Leetcode-00FF9C?style=for-the-badge&logo=leetcode&logoColor=black"/>
 </a>
 
 </div>
 
 ---
 
-## 👩‍💻 About Me
 
-<div align="center">
-
-✨ **Hi, I'm Rani Patel**
-
-💻 Full Stack Developer building **modern & scalable apps**
-
-🚀 Specialized in **MERN Stack + UI**
-
-💡 *"Turning ideas into real digital experiences"*
-
-</div>
-
----
 
 ## 🌐 Portfolio
 
@@ -57,17 +41,24 @@
 </p>
 
 ---
+## 🚀 Featured Work
 
-## ⚡ Featured Projects
+ <div align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="280"/>
+</div> 
 
-<p align="center">
+### 🔥 LedgerCore  
+Smart expense tracker with analytics  
+→ Helped users reduce overspending  
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BigBasket-Clone&theme=tokyonight"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=Porter-Clone&theme=tokyonight"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=BBC-News-Clone&theme=tokyonight"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RaniPatel16&repo=AI-Chatbot&theme=tokyonight"/>
+### 🌾 Rupiya  
+Agri-tech platform for farmers  
+→ Price prediction + SMS alerts  
 
-</p>
+
+
+---
+
 
 ---
 
@@ -106,6 +97,13 @@
 
 ---
 
+## 🐍 Contribution Snake
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+---
 ## 💡 What I Do
 
 - 🚀 Build full-stack apps  
@@ -113,14 +111,8 @@
 - 🤖 Explore AI  
 - 📈 Solve problems  
 
+
 ---
-## 🐍 Contribution Snake
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-## 👀 Profile Views
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=RaniPatel16&label=Profile%20Views&color=00FF9C"/>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f7ff,100:000000&height=140&section=footer"/>
+</div>
