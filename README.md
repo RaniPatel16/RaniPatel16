@@ -24,8 +24,8 @@
   <img src="https://img.shields.io/badge/GitHub-00FF9C?style=for-the-badge&logo=github&logoColor=black"/>
 </a>
 &nbsp;
-<a href="mailto:your-email@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
+<a href="https://leetcode.com/u/QGxRFjxdGR/">
+  <img src="https://img.shields.io/badge/Gmail-00FF9C?style=for-the-badge&logo=leetcode&logoColor=black"/>
 </a>
 
 </div>
