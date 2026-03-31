@@ -29,6 +29,18 @@
 </div>
 
 ---
+## 👨‍💻 About Me
+
+<p>
+  <img src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" height="190" width="400" align="right" style="margin-left:20px;" />
+</p>
+
+- 👨‍💻 Full Stack Developer  
+- 💻 System Design & Advanced Backend  
+- 🌱 UI/UX  Frontend 
+- 💡 Fun fact: I’m a **creative person 
+---
+
 
 
 
