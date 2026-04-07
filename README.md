@@ -29,16 +29,39 @@
 </div>
 
 ---
+
+
 ## 👨‍💻 About Me
 
+<div align="center">
+
+<!-- Animated Typing About Me -->
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=2000&pause=500&color=00FF9C&center=true&vCenter=true&width=700&lines=>>>+Creative+Developer;>>>+Passionate+About+Frontend+%26+UI/UX;>>>+Building+Modern+Web+Apps;>>>+Always+Learning+New+Technologies"/>
+
+</div>
+
+<br/>
+
 <p>
-  <img src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" height="190" width="400" align="right" style="margin-left:20px;" />
+  <img src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" height="300" width="400" align="right" style="margin-left:20px;" />
 </p>
 
-- 👨‍💻 Full Stack Developer  
-- 💻 System Design & Advanced Backend  
-- 🌱 UI/UX  Frontend 
-- 💡 Fun fact: I’m a **creative person 
+- 🌱 Currently learning **React, Tailwind CSS, and Backend Development**  
+- 💡 Interested in **Frontend Development, UI/UX Design, and Full Stack Projects**  
+- 🔥 I enjoy **solving problems and building real-world applications**  
+- 🎯 My goal is to become a **skilled Full Stack Developer**  
+
+- 📚 Improving my **Data Structures & Algorithms (DSA)** skills  
+- 🎨 Passionate about creating **modern and responsive UI designs**  
+ 
+
+- 🚀 Working with **Git & GitHub for version control**  
+- 💬 Open to **collaboration and learning from developers**  
+ 
+
+- 📈 Continuously upgrading my skills with **hands-on projects**  
+ 
+
 ---
 
 
@@ -52,34 +75,37 @@
 </a>
 </p>
 
----
-## 🚀 Featured Work
-
- <div align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="280"/>
-</div> 
-
-### 🔥 LedgerCore  
-Smart expense tracker with analytics  
-→ Helped users reduce overspending  
-
-### 🌾 Rupiya  
-Agri-tech platform for farmers  
-→ Price prediction + SMS alerts  
-
 
 
 ---
-
 
 ---
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode"/>
-</p>
+<div align="center">
 
+### 🌐 Frontend
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap"/>
+
+### ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+
+### 🗄️ Database
+<img src="https://skillicons.dev/icons?i=mongodb,mysql"/>
+
+### 💻 Programming Languages
+<img src="https://skillicons.dev/icons?i=cpp,c,python"/>
+
+### 🧰 Tools & Technologies
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma"/>
+
+### 🚀 Currently Learning
+<img src="https://skillicons.dev/icons?i=nextjs,typescript,redux"/>
+
+</div>
+
+---
 ---
 
 ## 📊 GitHub Stats
