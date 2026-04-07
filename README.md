@@ -63,17 +63,38 @@
  
 
 ---
+<!-- 🌐 CONNECT WITH ME -->
 
-
-
-
-## 🌐 Portfolio
+<h2 align="left" style="color:#007BFF;">🤝 Connect With Me</h2>
 
 <p align="center">
-<a href="https://your-portfolio-link.com">
-<img src="https://img.shields.io/badge/Open%20Portfolio-00C9FF?style=for-the-badge&logo=vercel&logoColor=white"/>
+
+<a href="https://your-portfolio-link.com" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-007BFF?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
+
+<a href="https://your-resume-link.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/Resume-007BFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/rani-patel-5aa5a3397" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-007BFF?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+
+<a href="https://leetcode.com/u/QGxRFjxdGR/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-007BFF?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+
+<a href="https://www.youtube.com/channel/UCVjMcAOvlhm9_lGi21H_UXA" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-007BFF?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
+
 </p>
+
+<hr style="border: 1px solid #007BFF; opacity: 0.2;">
+
+
 
 
 
