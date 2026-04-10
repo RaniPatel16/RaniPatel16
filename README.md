@@ -16,15 +16,7 @@
 <br/><br/>
 
 <!-- 🔗 BUTTONS -->
-<a href="https://linkedin.com/in/rani-patel-5aa5a3397">
-  <img src="https://img.shields.io/badge/LinkedIn-00FF9C?style=for-the-badge&logo=linkedin&logoColor=black"/>
-</a>
-&nbsp;
 
-
-<a href="https://leetcode.com/u/QGxRFjxdGR/">
-  <img src="https://img.shields.io/badge/Leetcode-00FF9C?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
 
 </div>
 
@@ -67,27 +59,31 @@
 
 <h2 align="left" style="color:#007BFF;">🤝 Connect With Me</h2>
 
+
+
 <p align="center">
 
-<a href="https://your-portfolio-link.com" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-007BFF?style=for-the-badge&logo=vercel&logoColor=white"/>
+<a href="https://your-portfolio-link.com">
+  <img src="https://img.shields.io/badge/PORTFOLIO-00C853?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
 
-<a href="https://your-resume-link.pdf" target="_blank">
-  <img src="https://img.shields.io/badge/Resume-007BFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+<a href="https://your-resume-link.com">
+  <img src="https://img.shields.io/badge/RESUME-00C853?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
 </a>
+
 
 <a href="https://linkedin.com/in/rani-patel-5aa5a3397" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-007BFF?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-00C853?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 
 <a href="https://leetcode.com/u/QGxRFjxdGR/" target="_blank">
-  <img src="https://img.shields.io/badge/LeetCode-007BFF?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LEETCODE-00C853?style=for-the-badge&logo=leetcode&logoColor=white" />
 </a>
 
+
 <a href="https://www.youtube.com/channel/UCVjMcAOvlhm9_lGi21H_UXA" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-007BFF?style=for-the-badge&logo=youtube&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOUTUBE-00C853?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
 
 </p>
