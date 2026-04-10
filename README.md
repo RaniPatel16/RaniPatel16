@@ -63,31 +63,31 @@
 
 ---
 <!-- 🌐 CONNECT WITH ME -->
+<!-- 🌐 CONNECT WITH ME -->
 
-<h2 align="left" style="color:#007BFF;">🤝 Connect With Me</h2>
-
-
+<h2 align="left" style="color:#00FF9C;">🤝 Connect With Me</h2>
 
 <p align="center">
 
 <a href="https://your-portfolio-link.com">
   <img src="https://img.shields.io/badge/PORTFOLIO-00C853?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://your-resume-link.com">
   <img src="https://img.shields.io/badge/RESUME-00C853?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
 </a>
-
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://linkedin.com/in/rani-patel-5aa5a3397" target="_blank">
   <img src="https://img.shields.io/badge/LINKEDIN-00C853?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://leetcode.com/u/QGxRFjxdGR/" target="_blank">
   <img src="https://img.shields.io/badge/LEETCODE-00C853?style=for-the-badge&logo=leetcode&logoColor=white" />
 </a>
-
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.youtube.com/channel/UCVjMcAOvlhm9_lGi21H_UXA" target="_blank">
   <img src="https://img.shields.io/badge/YOUTUBE-00C853?style=for-the-badge&logo=youtube&logoColor=white" />
@@ -95,15 +95,7 @@
 
 </p>
 
-<hr style="border: 1px solid #007BFF; opacity: 0.2;">
-
-
-
-
-
----
-
----
+<hr style="border: 1px solid #00FF9C; opacity: 0.3;">
 
 ## 🛠️ Tech Stack
 
