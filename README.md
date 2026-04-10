@@ -17,7 +17,7 @@
 </h1>
 
 <!-- 💻 ROLE -->
-<img src="https://readme-typing-svg.herokuapp.com/?lines=>>>+MERN+Stack+Developer;>>>+Frontend+Engineer;>>>+Creative+UI+Designer;>>>+Problem+Solver&center=true&width=700&height=45&color=00FF9C">
+<!-- <img src="https://readme-typing-svg.herokuapp.com/?lines=>>>+MERN+Stack+Developer;>>>+Frontend+Engineer;>>>+Creative+UI+Designer;>>>+Problem+Solver&center=true&width=700&height=45&color=00FF9C"> -->
 
 <br/>
 <!-- 👀 Profile Views -->
@@ -35,7 +35,7 @@
 <div align="center">
 
 <!-- Animated Typing About Me -->
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=2000&pause=500&color=00FF9C&center=true&vCenter=true&width=700&lines=>>>+Creative+Developer;>>>+Passionate+About+Frontend+%26+UI/UX;>>>+Building+Modern+Web+Apps;>>>+Always+Learning+New+Technologies"/>
+<!-- <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=2000&pause=500&color=00FF9C&center=true&vCenter=true&width=700&lines=>>>+Creative+Developer;>>>+Passionate+About+Frontend+%26+UI/UX;>>>+Building+Modern+Web+Apps;>>>+Always+Learning+New+Technologies"/> -->
 
 </div>
 
@@ -63,7 +63,7 @@
 
 ---
 <!-- 🌐 CONNECT WITH ME -->
-<!-- 🌐 CONNECT WITH ME -->
+
 
 <h2 align="left" style="color:#00FF9C;">🤝 Connect With Me</h2>
 
@@ -132,14 +132,14 @@
 
 </div>
 
----
+
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=dark&title_color=00FF9C&icon_color=00FF9C&text_color=FFFFFF&bg_color=0D1117&border_color=00FF9C"/>
+<!-- <img src="https://github-readme-stats.vercel.app/api?username=RaniPatel16&show_icons=true&theme=dark&title_color=00FF9C&icon_color=00FF9C&text_color=FFFFFF&bg_color=0D1117&border_color=00FF9C"/> -->
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=RaniPatel16&theme=dark&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&sideLabels=FFFFFF&dates=AAAAAA&background=0D1117&border=00FF9C"/>
 
@@ -150,6 +150,7 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaniPatel16&bg_color=0D1117&color=FFFFFF&line=00FF9C&point=00FF9C&area=true&area_color=00FF9C&title_color=00FF9C"/>
 
 </p>
+
 ---
 
 ## ⚡ Coding Zone
