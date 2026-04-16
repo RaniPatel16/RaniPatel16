@@ -153,17 +153,7 @@
 
 ---
 
-## ⚡ Coding Zone
 
-<div align="center">
-
-<h3 style="color:#00FF9C;">👨‍💻 Coding in Progress...</h3>
-
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="420"/>
-
-</div>
-
----
 
 ## 🐍 Contribution Snake
 
@@ -172,15 +162,8 @@
 </p>
 
 ---
-## 💡 What I Do
-
-- 🚀 Build full-stack apps  
-- 🎨 Design UI  
-- 🤖 Explore AI  
-- 📈 Solve problems  
 
 
----
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f7ff,100:000000&height=140&section=footer"/>
 </div>
