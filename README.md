@@ -136,111 +136,112 @@
 ---
 
 
-## 🎮 Achievement Quest
+## ✨ My Achievement Constellation
 
 <div align="center">
 
-### ⚡ RANI PATEL — DEVELOPER JOURNEY
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:312e81&height=90&section=header&text=ACHIEVEMENTS%20UNLOCKED&fontSize=28&fontColor=ffffff&animation=fadeIn" />
 
-`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+<br>
 
-### 🏆 ACHIEVEMENTS UNLOCKED
+### 🌌 Every project became a star.
+
+### Every challenge became experience.
+
+<br>
+
+⭐ ──────────────── ⭐ ──────────────── ⭐
 
 </div>
 
 <br>
 
-### 🌱 `LEVEL 01` — OPEN SOURCE
-
-<img src="https://img.shields.io/badge/GSSoC_2026-OPEN_SOURCE_CONTRIBUTOR-4F46E5?style=for-the-badge&logo=github&logoColor=white" />
-
-> Selected as an **Open Source Contributor / Mentee**
-> Learning, contributing and building with the open-source community.
-
----
-
-### 🥈 `LEVEL 02` — PODIUM FINISH
-
-<img src="https://img.shields.io/badge/RUPIYA.APP-2ND_PLACE-F59E0B?style=for-the-badge&logo=medal&logoColor=white" />
-
-> 🥈 Secured **2nd Place** at Rupiya.app.
-
----
-
-
-
-### ⚔️ `LEVEL 03` — HACKATHON GRINDER
-
-<img src="https://img.shields.io/badge/25%2B-HACKATHONS-FF6B35?style=for-the-badge&logo=hackthebox&logoColor=white" />
-
-> 🚀 Participated in **25+ Hackathons**
-> **Idea → Build → Break → Fix → Ship**
-
----
-
-### 🧠 `LEVEL 04` — DSA SKILL TREE
-
-<img src="https://img.shields.io/badge/200%2B-DSA_PROBLEMS-00A67E?style=for-the-badge&logo=leetcode&logoColor=white" />
-
-> 💻 Solved **200+ DSA Problems**
-> Building stronger logic, algorithms and problem-solving skills.
-
----
-
-### 📜 `LEVEL 05` — KNOWLEDGE XP
-
-<img src="https://img.shields.io/badge/30%2B-TECHNICAL_CERTIFICATIONS-0EA5E9?style=for-the-badge&logo=credly&logoColor=white" />
-
-> 📚 Completed **30+ Technical Certifications**
-> Constantly upgrading my developer skill tree.
-
----
-
 <div align="center">
 
-## 🌌 BUILDER MODE
+### 🌱 OPEN SOURCE STAR
 
-```text
-          💡 IDEA
-             │
-             ▼
-        🧠 PROBLEM
-             │
-             ▼
-        💻 CODE
-             │
-             ▼
-        🐛 DEBUG
-             │
-             ▼
-        🚀 SHIP
-             │
-             ▼
-        🔥 REPEAT
-```
+<img src="https://img.shields.io/badge/GSSoC_2026-Contributor-6366F1?style=for-the-badge&logo=github&logoColor=white" />
 
-### ⚡ DOMAINS I'VE BUILT IN
-
-`💰 FinTech`    `🎓 EdTech`    `🚗 E-Mobility`    `🛠️ Developer Tools`
-
-<br>
-
-### 🎯 CURRENT STATUS
-
-<img src="https://img.shields.io/badge/STATUS-STILL_BUILDING...-22C55E?style=for-the-badge&logo=rocket&logoColor=white" />
+**Selected as an Open Source Contributor / Mentee**
 
 <br><br>
 
-> **"Every project is a new level. Every failure is XP."** 🎮
+⭐ ───────────────────────────────── ⭐
 
-`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+<br>
 
-### 🚀 NEXT ACHIEVEMENT LOADING...
+### 🥈 PODIUM STAR
 
-**MORE PROJECTS • MORE HACKATHONS • MORE OPEN SOURCE • MORE IMPACT**
+<img src="https://img.shields.io/badge/Rupiya.app-2nd%20Place-F59E0B?style=for-the-badge" />
+
+**Turned an idea into a podium finish.**
+
+<br><br>
+
+⭐ ───────────────────────────────── ⭐
+
+<br>
+
+
+### 🚀 THE GRIND
+
+<img src="https://img.shields.io/badge/25%2B-Hackathons-FF6B35?style=for-the-badge&logo=rocket&logoColor=white" />
+
+**20+ Hackathons**
+
+`IDEA → BUILD → DEBUG → PITCH → REPEAT`
+
+<br><br>
+
+⭐ ───────────────────────────────── ⭐
+
+<br>
+
+### 🧠 PROBLEM SOLVER
+
+<img src="https://img.shields.io/badge/200%2B-DSA%20Problems-00A67E?style=for-the-badge&logo=leetcode&logoColor=white" />
+
+**200+ Problems Solved**
+
+`THINK → CODE → FAIL → LEARN → SOLVE`
+
+<br><br>
+
+⭐ ───────────────────────────────── ⭐
+
+<br>
+
+### 📚 KNOWLEDGE COLLECTOR
+
+<img src="https://img.shields.io/badge/30%2B-Certifications-0EA5E9?style=for-the-badge&logo=credly&logoColor=white" />
+
+**20+ Technical Certifications**
+
+`LEARN → PRACTICE → CERTIFY → BUILD`
 
 </div>
 
+---
+
+<div align="center">
+
+## 🌠 WHERE I BUILD
+
+<br>
+
+`💰 FINTECH`   ✦   `🎓 EDTECH`    ✦   `🛠️ DEV TOOLS`
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=80&section=footer&text=THE%20CONSTELLATION%20IS%20STILL%20GROWING%20%E2%9C%A8&fontSize=20&fontColor=ffffff" />
+
+<br><br>
+
+### 🚀 More stars loading...
+
+**More projects. More problems. More impact.**
+
+</div>
 
 ## 📊 GitHub Stats
 
