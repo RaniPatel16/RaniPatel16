@@ -185,7 +185,7 @@
 
 ### 🚀 THE GRIND
 
-<img src="https://img.shields.io/badge/25%2B-Hackathons-FF6B35?style=for-the-badge&logo=rocket&logoColor=white" />
+<img src="https://img.shields.io/badge/20%2B-Hackathons-FF6B35?style=for-the-badge&logo=rocket&logoColor=white" />
 
 **20+ Hackathons**
 
@@ -213,7 +213,7 @@
 
 ### 📚 KNOWLEDGE COLLECTOR
 
-<img src="https://img.shields.io/badge/30%2B-Certifications-0EA5E9?style=for-the-badge&logo=credly&logoColor=white" />
+<img src="https://img.shields.io/badge/20%2B-Certifications-0EA5E9?style=for-the-badge&logo=credly&logoColor=white" />
 
 **20+ Technical Certifications**
 
