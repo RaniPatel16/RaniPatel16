@@ -149,12 +149,11 @@
 ### Every challenge became experience.
 
 <br>
-
 ⭐ ──────────────── ⭐ ──────────────── ⭐
 
 </div>
 
-<br>
+
 
 <div align="center">
 
@@ -164,7 +163,7 @@
 
 **Selected as an Open Source Contributor / Mentee**
 
-<br><br>
+<br>
 
 ⭐ ───────────────────────────────── ⭐
 
@@ -176,7 +175,7 @@
 
 **Turned an idea into a podium finish.**
 
-<br><br>
+<br>
 
 ⭐ ───────────────────────────────── ⭐
 
@@ -191,7 +190,7 @@
 
 `IDEA → BUILD → DEBUG → PITCH → REPEAT`
 
-<br><br>
+<br>
 
 ⭐ ───────────────────────────────── ⭐
 
@@ -205,7 +204,7 @@
 
 `THINK → CODE → FAIL → LEARN → SOLVE`
 
-<br><br>
+<br>
 
 ⭐ ───────────────────────────────── ⭐
 
@@ -235,7 +234,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=80&section=footer&text=THE%20CONSTELLATION%20IS%20STILL%20GROWING%20%E2%9C%A8&fontSize=20&fontColor=ffffff" />
 
-<br><br>
+<br>
 
 ### 🚀 More stars loading...
 
