@@ -135,6 +135,113 @@
 
 ---
 
+
+## 🎮 Achievement Quest
+
+<div align="center">
+
+### ⚡ RANI PATEL — DEVELOPER JOURNEY
+
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+
+### 🏆 ACHIEVEMENTS UNLOCKED
+
+</div>
+
+<br>
+
+### 🌱 `LEVEL 01` — OPEN SOURCE
+
+<img src="https://img.shields.io/badge/GSSoC_2026-OPEN_SOURCE_CONTRIBUTOR-4F46E5?style=for-the-badge&logo=github&logoColor=white" />
+
+> Selected as an **Open Source Contributor / Mentee**
+> Learning, contributing and building with the open-source community.
+
+---
+
+### 🥈 `LEVEL 02` — PODIUM FINISH
+
+<img src="https://img.shields.io/badge/RUPIYA.APP-2ND_PLACE-F59E0B?style=for-the-badge&logo=medal&logoColor=white" />
+
+> 🥈 Secured **2nd Place** at Rupiya.app.
+
+---
+
+
+
+### ⚔️ `LEVEL 03` — HACKATHON GRINDER
+
+<img src="https://img.shields.io/badge/25%2B-HACKATHONS-FF6B35?style=for-the-badge&logo=hackthebox&logoColor=white" />
+
+> 🚀 Participated in **25+ Hackathons**
+> **Idea → Build → Break → Fix → Ship**
+
+---
+
+### 🧠 `LEVEL 04` — DSA SKILL TREE
+
+<img src="https://img.shields.io/badge/200%2B-DSA_PROBLEMS-00A67E?style=for-the-badge&logo=leetcode&logoColor=white" />
+
+> 💻 Solved **200+ DSA Problems**
+> Building stronger logic, algorithms and problem-solving skills.
+
+---
+
+### 📜 `LEVEL 05` — KNOWLEDGE XP
+
+<img src="https://img.shields.io/badge/30%2B-TECHNICAL_CERTIFICATIONS-0EA5E9?style=for-the-badge&logo=credly&logoColor=white" />
+
+> 📚 Completed **30+ Technical Certifications**
+> Constantly upgrading my developer skill tree.
+
+---
+
+<div align="center">
+
+## 🌌 BUILDER MODE
+
+```text
+          💡 IDEA
+             │
+             ▼
+        🧠 PROBLEM
+             │
+             ▼
+        💻 CODE
+             │
+             ▼
+        🐛 DEBUG
+             │
+             ▼
+        🚀 SHIP
+             │
+             ▼
+        🔥 REPEAT
+```
+
+### ⚡ DOMAINS I'VE BUILT IN
+
+`💰 FinTech`    `🎓 EdTech`    `🚗 E-Mobility`    `🛠️ Developer Tools`
+
+<br>
+
+### 🎯 CURRENT STATUS
+
+<img src="https://img.shields.io/badge/STATUS-STILL_BUILDING...-22C55E?style=for-the-badge&logo=rocket&logoColor=white" />
+
+<br><br>
+
+> **"Every project is a new level. Every failure is XP."** 🎮
+
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+
+### 🚀 NEXT ACHIEVEMENT LOADING...
+
+**MORE PROJECTS • MORE HACKATHONS • MORE OPEN SOURCE • MORE IMPACT**
+
+</div>
+
+
 ## 📊 GitHub Stats
 
 <p align="center">
